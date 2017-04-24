@@ -17,7 +17,7 @@ with open('data/librispeech-lexicon.txt') as dictionary_file:
 
 with open(sys.argv[1]) as words_file:
     for string in words_file:
-        [_, phrase] = string.strip().split(':')
+        [count, phrase] = string.strip().split(':')
 
         found = True
         transcription = list()
@@ -33,5 +33,5 @@ with open(sys.argv[1]) as words_file:
                 found = False
 
         if found:
-            print(phrase, '  ', ' '.join(['_'.join(x) for x in zip(transcription, transcription[1:])]))
+            print(count + '\t' + phrase + '\t' + ' '.join(['_'.join(x) for x in zip(transcription, transcription[1:])]))
 
