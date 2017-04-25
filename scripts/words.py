@@ -1,10 +1,12 @@
+import lzma
+
 vocabulary = dict()
 
 for n in ['uni', 'bi']:
-    with open('data/{}grams_diphones.txt'.format(n)) as words_file:
+    with lzma.open('data/{}grams_diphones.txt.xz'.format(n)) as words_file:
         vocabulary[n] = dict()
         for string in words_file:
-            [count, word, transcription] = string.split('\t')
+            [count, word, transcription] = string.decode('utf-8').split('\t')
             vocabulary[n][word] = [transcription.strip(), int(count)]
 
 count = 0
