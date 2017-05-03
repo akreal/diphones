@@ -4,5 +4,5 @@ This is to be used in the task of sample words' collection for diphones
 
 Sources:
 
-1. [LibriSpeech ASR corpus] (http://www.openslr.org/12/).
-2. [TED-LIUM corpus release 2] (http://www-lium.univ-lemans.fr/en/content/ted-lium-corpus).
+1. [LibriSpeech ASR corpus](http://www.openslr.org/12/).
+2. [TED-LIUM corpus release 2](http://www-lium.univ-lemans.fr/en/content/ted-lium-corpus).
