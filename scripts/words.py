@@ -2,10 +2,9 @@ vocabulary = dict()
 
 for n in ['uni', 'bi']:
     with open('data/{}grams_diphones.txt'.format(n)) as words_file:
-        vocabulary[n] = dict()
         for string in words_file:
             [count, word, transcription] = string.split('\t')
-            vocabulary[n][word] = [transcription.strip(), int(count)]
+            vocabulary[word] = [transcription.strip(), int(count)]
 
 count = 0
 
@@ -15,11 +14,7 @@ with open('data/diphones.txt') as diphones_file, open('data/words.txt', 'w') as 
 
         diphone = string.strip()
 
-        if 'SIL' in diphone:
-            v = vocabulary['bi']
-        else:
-            v = vocabulary['uni']
-
+        v = vocabulary
         f = filter(lambda x: diphone in v[x][0], v.keys())
         sorted_by_count = sorted(f, key=lambda x: v[x][1], reverse=True)
 
