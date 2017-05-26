@@ -3,3 +3,4 @@ data/unigrams_diphones.txt filter=lfs diff=lfs merge=lfs -text
 data/bigrams.txt filter=lfs diff=lfs merge=lfs -text
 data/unigrams.txt filter=lfs diff=lfs merge=lfs -text
 data/utts.txt filter=lfs diff=lfs merge=lfs -text
+data/alignments/** filter=lfs diff=lfs merge=lfs -text

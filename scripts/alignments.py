@@ -3,10 +3,14 @@ import glob
 print('Reading utterances')
 
 utts = set()
+utts_words = set()
 
 with open('data/utts.txt') as utts_file:
     for string in utts_file:
-        utts.add(string.split('\t')[1].strip())
+        [word, utt] = [x.strip() for x in string.split('\t')]
+        if word not in utts_words:
+            utts.add(utt)
+            utts_words.add(word)
 
 print('Reading vocabularies')
 
