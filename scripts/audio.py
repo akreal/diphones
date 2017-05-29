@@ -32,7 +32,17 @@ for dictionary_filename in ['data/librispeech-lexicon.txt', 'data/TEDLIUM.152k.d
 
                 vocabulary[word] = transcription.lower()
 
-print('Reading transcripts')
+print('Building utterance map')
+
+utt_filename = dict()
+
+for filename in glob.glob('/data/LibriSpeech/*/*/*/*.flac'):
+    utt_filename[filename.split('/')[-1][:-5]] = filename
+
+for filename in glob.glob('/data/TEDLIUM_release2/*/sph/*.sph'):
+    utt_filename[filename.split('/')[-1][:-4]] = filename
+
+print('Preparing audio and grammars')
 
 for transcription_filename in glob.glob('data/corpora/*/*.txt'):
     with open(transcription_filename) as transcription_file:
@@ -58,19 +68,16 @@ for transcription_filename in glob.glob('data/corpora/*/*.txt'):
                     grammar_file.write(' [ sil ] '.join(transcription) + ' [ sil ] ;\n')
 
                 if '@' in utt:
-                    mask = '/data/TEDLIUM_release2/*/sph/' + utt[:utt.index('@')] + '.sph'
+                    audio_source = utt_filename[utt[:utt.index('@')]]
                 else:
-                    mask = '/data/LibriSpeech/*/*/*/' + utt + '.flac'
+                    audio_source = utt_filename[utt]
 
-                audio_source = glob.glob(mask)
+                audio_filename = grammar_filename[:-4] + 'wav'
+                convert_command = ['sox', audio_source, '-c', '1', '-r', '16000', '-b', '16', audio_filename]
 
-                if len(audio_source) == 1:
-                    audio_filename = grammar_filename[:-4] + 'wav'
-                    convert_command = ['sox', audio_source[0], '-c', '1', '-r', '16000', '-b', '16', audio_filename]
+                if '@' in utt:
+                    interval = utt[utt.index('@') + 1:].split(':')
+                    interval[1] = str(float(interval[1]) - float(interval[0]))
+                    convert_command += ['trim'] + interval
 
-                    if '@' in utt:
-                        interval = utt[utt.index('@') + 1:].split(':')
-                        interval[1] = str(float(interval[1]) - float(interval[0]))
-                        convert_command += ['trim'] + interval
-
-                    subprocess.run(convert_command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                subprocess.run(convert_command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
