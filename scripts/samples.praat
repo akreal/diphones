@@ -24,8 +24,13 @@ for i from 1 to nRows
 				Zoom to selection
 				Zoom out
 			endif
-			pause  Select word 'word$'!
-			Save selected sound as WAV file... 'filename$'
+
+			beginPause: "Select the word <" + word$ + ">"
+			save = endPause: "Skip", "Save", 2
+
+			if save = 2
+				Save selected sound as WAV file... 'filename$'
+			endif
 		endeditor
 
 		Remove
