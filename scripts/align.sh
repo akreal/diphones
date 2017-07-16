@@ -5,7 +5,7 @@ jsgf=$(basename -s .wav $wav)".jsgf";
 pocketsphinx_continuous \
 	-infile $wav \
 	-jsgf $jsgf \
-	-dict data/phonemes.dict \
+	-dict phonemes.dict \
 	-backtrace yes \
 	-fsgusefiller no \
 	-bestpath no \
@@ -18,4 +18,5 @@ pocketsphinx_continuous \
 	-pl_pbeam 1e-1000 \
 	-pl_window  10000 \
 	-maxhmmpf  -1 \
+	-remove_silence no \
 	2>$wav.log 1>/dev/null
