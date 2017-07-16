@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.61
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "GEORGE_GASCOIGNE.wav"
+		xmin = 0 
+		xmax = 1.61 
+		intervals: size = 14
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.11 
+			text = "jh" 
+		invertals [2]:
+			xmin = 0.12 
+			xmax = 0.28 
+			text = "ao" 
+		invertals [3]:
+			xmin = 0.29 
+			xmax = 0.40 
+			text = "r" 
+		invertals [4]:
+			xmin = 0.41 
+			xmax = 0.61 
+			text = "jh" 
+		invertals [5]:
+			xmin = 0.62 
+			xmax = 0.65 
+			text = "g" 
+		invertals [6]:
+			xmin = 0.66 
+			xmax = 0.96 
+			text = "ae" 
+		invertals [7]:
+			xmin = 0.97 
+			xmax = 1.06 
+			text = "s" 
+		invertals [8]:
+			xmin = 1.07 
+			xmax = 1.11 
+			text = "k" 
+		invertals [9]:
+			xmin = 1.12 
+			xmax = 1.34 
+			text = "ao" 
+		invertals [10]:
+			xmin = 1.35 
+			xmax = 1.37 
+			text = "iy" 
+		invertals [11]:
+			xmin = 1.38 
+			xmax = 1.41 
+			text = "ih" 
+		invertals [12]:
+			xmin = 1.42 
+			xmax = 1.44 
+			text = "g" 
+		invertals [13]:
+			xmin = 1.45 
+			xmax = 1.58 
+			text = "n" 
+		invertals [14]:
+			xmin = 1.59 
+			xmax = 1.61 
+			text = "y" 

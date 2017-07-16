@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.67
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "TEETH_CHATTERED.wav"
+		xmin = 0 
+		xmax = 0.67 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.09 
+			text = "t" 
+		invertals [2]:
+			xmin = 0.10 
+			xmax = 0.19 
+			text = "iy" 
+		invertals [3]:
+			xmin = 0.20 
+			xmax = 0.27 
+			text = "th" 
+		invertals [4]:
+			xmin = 0.28 
+			xmax = 0.37 
+			text = "ch" 
+		invertals [5]:
+			xmin = 0.38 
+			xmax = 0.53 
+			text = "ae" 
+		invertals [6]:
+			xmin = 0.54 
+			xmax = 0.58 
+			text = "t" 
+		invertals [7]:
+			xmin = 0.59 
+			xmax = 0.61 
+			text = "uh" 
+		invertals [8]:
+			xmin = 0.62 
+			xmax = 0.64 
+			text = "r" 
+		invertals [9]:
+			xmin = 0.65 
+			xmax = 0.67 
+			text = "d" 

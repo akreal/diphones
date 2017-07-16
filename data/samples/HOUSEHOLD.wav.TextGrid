@@ -1,0 +1,54 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.89
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "HOUSEHOLD.wav"
+		xmin = 0 
+		xmax = 0.89 
+		intervals: size = 10
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.11 
+			text = "hh" 
+		invertals [2]:
+			xmin = 0.12 
+			xmax = 0.25 
+			text = "aa" 
+		invertals [3]:
+			xmin = 0.26 
+			xmax = 0.28 
+			text = "uh" 
+		invertals [4]:
+			xmin = 0.29 
+			xmax = 0.39 
+			text = "s" 
+		invertals [5]:
+			xmin = 0.40 
+			xmax = 0.46 
+			text = "hh" 
+		invertals [6]:
+			xmin = 0.47 
+			xmax = 0.52 
+			text = "ao" 
+		invertals [7]:
+			xmin = 0.53 
+			xmax = 0.55 
+			text = "uh" 
+		invertals [8]:
+			xmin = 0.56 
+			xmax = 0.72 
+			text = "l" 
+		invertals [9]:
+			xmin = 0.73 
+			xmax = 0.84 
+			text = "d" 
+		invertals [10]:
+			xmin = 0.85 
+			xmax = 0.89 
+			text = "sil" 

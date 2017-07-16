@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.13
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "GLENARM_YOULL.wav"
+		xmin = 0 
+		xmax = 1.13 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "g" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.05 
+			text = "l" 
+		invertals [3]:
+			xmin = 0.06 
+			xmax = 0.16 
+			text = "eh" 
+		invertals [4]:
+			xmin = 0.17 
+			xmax = 0.19 
+			text = "n" 
+		invertals [5]:
+			xmin = 0.20 
+			xmax = 0.24 
+			text = "eh" 
+		invertals [6]:
+			xmin = 0.25 
+			xmax = 0.86 
+			text = "r" 
+		invertals [7]:
+			xmin = 0.87 
+			xmax = 0.89 
+			text = "m" 
+		invertals [8]:
+			xmin = 0.90 
+			xmax = 0.97 
+			text = "y" 
+		invertals [9]:
+			xmin = 0.98 
+			xmax = 1.13 
+			text = "l" 

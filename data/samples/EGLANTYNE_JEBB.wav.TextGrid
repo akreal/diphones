@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.95
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "EGLANTYNE_JEBB.wav"
+		xmin = 0 
+		xmax = 0.95 
+		intervals: size = 13
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.06 
+			text = "eh" 
+		invertals [2]:
+			xmin = 0.07 
+			xmax = 0.16 
+			text = "g" 
+		invertals [3]:
+			xmin = 0.17 
+			xmax = 0.21 
+			text = "l" 
+		invertals [4]:
+			xmin = 0.22 
+			xmax = 0.24 
+			text = "ae" 
+		invertals [5]:
+			xmin = 0.25 
+			xmax = 0.29 
+			text = "n" 
+		invertals [6]:
+			xmin = 0.30 
+			xmax = 0.36 
+			text = "t" 
+		invertals [7]:
+			xmin = 0.37 
+			xmax = 0.39 
+			text = "aa" 
+		invertals [8]:
+			xmin = 0.40 
+			xmax = 0.45 
+			text = "iy" 
+		invertals [9]:
+			xmin = 0.46 
+			xmax = 0.53 
+			text = "n" 
+		invertals [10]:
+			xmin = 0.54 
+			xmax = 0.63 
+			text = "jh" 
+		invertals [11]:
+			xmin = 0.64 
+			xmax = 0.82 
+			text = "eh" 
+		invertals [12]:
+			xmin = 0.83 
+			xmax = 0.92 
+			text = "b" 
+		invertals [13]:
+			xmin = 0.93 
+			xmax = 0.95 
+			text = "b" 

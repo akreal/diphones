@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.68
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "_SIL__LUIGI_S.wav"
+		xmin = 0 
+		xmax = 0.68 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.15 
+			text = "sil" 
+		invertals [2]:
+			xmin = 0.16 
+			xmax = 0.27 
+			text = "l" 
+		invertals [3]:
+			xmin = 0.28 
+			xmax = 0.31 
+			text = "w" 
+		invertals [4]:
+			xmin = 0.32 
+			xmax = 0.44 
+			text = "iy" 
+		invertals [5]:
+			xmin = 0.45 
+			xmax = 0.50 
+			text = "jh" 
+		invertals [6]:
+			xmin = 0.51 
+			xmax = 0.61 
+			text = "iy" 
+		invertals [7]:
+			xmin = 0.62 
+			xmax = 0.68 
+			text = "z" 

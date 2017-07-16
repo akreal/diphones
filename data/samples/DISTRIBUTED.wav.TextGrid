@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.59
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "DISTRIBUTED.wav"
+		xmin = 0 
+		xmax = 0.59 
+		intervals: size = 12
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.05 
+			text = "d" 
+		invertals [2]:
+			xmin = 0.06 
+			xmax = 0.11 
+			text = "ih" 
+		invertals [3]:
+			xmin = 0.12 
+			xmax = 0.18 
+			text = "s" 
+		invertals [4]:
+			xmin = 0.19 
+			xmax = 0.23 
+			text = "t" 
+		invertals [5]:
+			xmin = 0.24 
+			xmax = 0.29 
+			text = "r" 
+		invertals [6]:
+			xmin = 0.30 
+			xmax = 0.35 
+			text = "ih" 
+		invertals [7]:
+			xmin = 0.36 
+			xmax = 0.40 
+			text = "b" 
+		invertals [8]:
+			xmin = 0.41 
+			xmax = 0.43 
+			text = "y" 
+		invertals [9]:
+			xmin = 0.44 
+			xmax = 0.46 
+			text = "ah" 
+		invertals [10]:
+			xmin = 0.47 
+			xmax = 0.49 
+			text = "t" 
+		invertals [11]:
+			xmin = 0.50 
+			xmax = 0.56 
+			text = "ah" 
+		invertals [12]:
+			xmin = 0.57 
+			xmax = 0.59 
+			text = "d" 

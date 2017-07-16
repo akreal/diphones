@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.02
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "ARAB_CHIEF.wav"
+		xmin = 0 
+		xmax = 1.02 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.12 
+			text = "ae" 
+		invertals [2]:
+			xmin = 0.13 
+			xmax = 0.23 
+			text = "r" 
+		invertals [3]:
+			xmin = 0.24 
+			xmax = 0.28 
+			text = "ah" 
+		invertals [4]:
+			xmin = 0.29 
+			xmax = 0.38 
+			text = "b" 
+		invertals [5]:
+			xmin = 0.39 
+			xmax = 0.58 
+			text = "ch" 
+		invertals [6]:
+			xmin = 0.59 
+			xmax = 0.86 
+			text = "iy" 
+		invertals [7]:
+			xmin = 0.87 
+			xmax = 1.02 
+			text = "f" 

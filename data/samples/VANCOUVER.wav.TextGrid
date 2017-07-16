@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.71
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "VANCOUVER.wav"
+		xmin = 0 
+		xmax = 0.71 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "v" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.13 
+			text = "ae" 
+		invertals [3]:
+			xmin = 0.14 
+			xmax = 0.24 
+			text = "n" 
+		invertals [4]:
+			xmin = 0.25 
+			xmax = 0.32 
+			text = "k" 
+		invertals [5]:
+			xmin = 0.33 
+			xmax = 0.47 
+			text = "uw" 
+		invertals [6]:
+			xmin = 0.48 
+			xmax = 0.50 
+			text = "v" 
+		invertals [7]:
+			xmin = 0.51 
+			xmax = 0.56 
+			text = "uh" 
+		invertals [8]:
+			xmin = 0.57 
+			xmax = 0.64 
+			text = "r" 
+		invertals [9]:
+			xmin = 0.65 
+			xmax = 0.71 
+			text = "sil" 

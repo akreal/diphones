@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.69
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "SCHLANGENBAD.wav"
+		xmin = 0 
+		xmax = 0.69 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.11 
+			text = "sh" 
+		invertals [2]:
+			xmin = 0.12 
+			xmax = 0.15 
+			text = "l" 
+		invertals [3]:
+			xmin = 0.16 
+			xmax = 0.25 
+			text = "ae" 
+		invertals [4]:
+			xmin = 0.26 
+			xmax = 0.28 
+			text = "ng" 
+		invertals [5]:
+			xmin = 0.29 
+			xmax = 0.33 
+			text = "ah" 
+		invertals [6]:
+			xmin = 0.34 
+			xmax = 0.39 
+			text = "n" 
+		invertals [7]:
+			xmin = 0.40 
+			xmax = 0.43 
+			text = "b" 
+		invertals [8]:
+			xmin = 0.44 
+			xmax = 0.59 
+			text = "ae" 
+		invertals [9]:
+			xmin = 0.60 
+			xmax = 0.69 
+			text = "d" 

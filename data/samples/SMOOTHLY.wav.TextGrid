@@ -1,0 +1,38 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.64
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "SMOOTHLY.wav"
+		xmin = 0 
+		xmax = 0.64 
+		intervals: size = 6
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.14 
+			text = "s" 
+		invertals [2]:
+			xmin = 0.15 
+			xmax = 0.22 
+			text = "m" 
+		invertals [3]:
+			xmin = 0.23 
+			xmax = 0.39 
+			text = "uw" 
+		invertals [4]:
+			xmin = 0.40 
+			xmax = 0.46 
+			text = "dh" 
+		invertals [5]:
+			xmin = 0.47 
+			xmax = 0.53 
+			text = "l" 
+		invertals [6]:
+			xmin = 0.54 
+			xmax = 0.64 
+			text = "iy" 

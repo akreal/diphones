@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.28
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "LAW_A.wav"
+		xmin = 0 
+		xmax = 0.28 
+		intervals: size = 3
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "l" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.15 
+			text = "ao" 
+		invertals [3]:
+			xmin = 0.16 
+			xmax = 0.28 
+			text = "ah" 

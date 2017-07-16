@@ -1,0 +1,38 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.45
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "AUGMENT.wav"
+		xmin = 0 
+		xmax = 0.45 
+		intervals: size = 6
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.04 
+			text = "ao" 
+		invertals [2]:
+			xmin = 0.05 
+			xmax = 0.21 
+			text = "g" 
+		invertals [3]:
+			xmin = 0.22 
+			xmax = 0.26 
+			text = "m" 
+		invertals [4]:
+			xmin = 0.27 
+			xmax = 0.30 
+			text = "eh" 
+		invertals [5]:
+			xmin = 0.31 
+			xmax = 0.40 
+			text = "n" 
+		invertals [6]:
+			xmin = 0.41 
+			xmax = 0.45 
+			text = "t" 

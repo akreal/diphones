@@ -1,0 +1,38 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.81
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "MAN_PEW.wav"
+		xmin = 0 
+		xmax = 0.81 
+		intervals: size = 6
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.03 
+			text = "m" 
+		invertals [2]:
+			xmin = 0.04 
+			xmax = 0.22 
+			text = "ae" 
+		invertals [3]:
+			xmin = 0.23 
+			xmax = 0.38 
+			text = "n" 
+		invertals [4]:
+			xmin = 0.39 
+			xmax = 0.43 
+			text = "p" 
+		invertals [5]:
+			xmin = 0.44 
+			xmax = 0.57 
+			text = "y" 
+		invertals [6]:
+			xmin = 0.58 
+			xmax = 0.81 
+			text = "uw" 

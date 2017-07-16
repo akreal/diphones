@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.68
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "OF_MUZIMU.wav"
+		xmin = 0 
+		xmax = 0.68 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.04 
+			text = "ah" 
+		invertals [2]:
+			xmin = 0.05 
+			xmax = 0.09 
+			text = "v" 
+		invertals [3]:
+			xmin = 0.10 
+			xmax = 0.13 
+			text = "m" 
+		invertals [4]:
+			xmin = 0.14 
+			xmax = 0.16 
+			text = "y" 
+		invertals [5]:
+			xmin = 0.17 
+			xmax = 0.19 
+			text = "uw" 
+		invertals [6]:
+			xmin = 0.20 
+			xmax = 0.30 
+			text = "z" 
+		invertals [7]:
+			xmin = 0.31 
+			xmax = 0.41 
+			text = "ih" 
+		invertals [8]:
+			xmin = 0.42 
+			xmax = 0.46 
+			text = "m" 
+		invertals [9]:
+			xmin = 0.47 
+			xmax = 0.68 
+			text = "uw" 

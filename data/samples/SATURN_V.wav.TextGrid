@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.71
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "SATURN_V.wav"
+		xmin = 0 
+		xmax = 0.71 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.07 
+			text = "s" 
+		invertals [2]:
+			xmin = 0.08 
+			xmax = 0.17 
+			text = "ae" 
+		invertals [3]:
+			xmin = 0.18 
+			xmax = 0.20 
+			text = "t" 
+		invertals [4]:
+			xmin = 0.21 
+			xmax = 0.23 
+			text = "uh" 
+		invertals [5]:
+			xmin = 0.24 
+			xmax = 0.29 
+			text = "r" 
+		invertals [6]:
+			xmin = 0.30 
+			xmax = 0.32 
+			text = "n" 
+		invertals [7]:
+			xmin = 0.33 
+			xmax = 0.41 
+			text = "v" 
+		invertals [8]:
+			xmin = 0.42 
+			xmax = 0.44 
+			text = "iy" 
+		invertals [9]:
+			xmin = 0.45 
+			xmax = 0.71 
+			text = "sil" 

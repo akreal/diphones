@@ -1,0 +1,30 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.35
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "WASN.wav"
+		xmin = 0 
+		xmax = 0.35 
+		intervals: size = 4
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.08 
+			text = "w" 
+		invertals [2]:
+			xmin = 0.09 
+			xmax = 0.15 
+			text = "aa" 
+		invertals [3]:
+			xmin = 0.16 
+			xmax = 0.21 
+			text = "z" 
+		invertals [4]:
+			xmin = 0.22 
+			xmax = 0.35 
+			text = "n" 

@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.77
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "ON_PELELIU.wav"
+		xmin = 0 
+		xmax = 0.77 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.11 
+			text = "aa" 
+		invertals [2]:
+			xmin = 0.12 
+			xmax = 0.17 
+			text = "n" 
+		invertals [3]:
+			xmin = 0.18 
+			xmax = 0.21 
+			text = "p" 
+		invertals [4]:
+			xmin = 0.22 
+			xmax = 0.29 
+			text = "eh" 
+		invertals [5]:
+			xmin = 0.30 
+			xmax = 0.32 
+			text = "l" 
+		invertals [6]:
+			xmin = 0.33 
+			xmax = 0.35 
+			text = "iy" 
+		invertals [7]:
+			xmin = 0.36 
+			xmax = 0.38 
+			text = "l" 
+		invertals [8]:
+			xmin = 0.39 
+			xmax = 0.43 
+			text = "ah" 
+		invertals [9]:
+			xmin = 0.44 
+			xmax = 0.77 
+			text = "uw" 

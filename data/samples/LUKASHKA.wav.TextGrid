@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.47
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "LUKASHKA.wav"
+		xmin = 0 
+		xmax = 0.47 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.06 
+			text = "l" 
+		invertals [2]:
+			xmin = 0.07 
+			xmax = 0.09 
+			text = "ah" 
+		invertals [3]:
+			xmin = 0.10 
+			xmax = 0.16 
+			text = "k" 
+		invertals [4]:
+			xmin = 0.17 
+			xmax = 0.28 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.29 
+			xmax = 0.37 
+			text = "sh" 
+		invertals [6]:
+			xmin = 0.38 
+			xmax = 0.44 
+			text = "k" 
+		invertals [7]:
+			xmin = 0.45 
+			xmax = 0.47 
+			text = "ah" 

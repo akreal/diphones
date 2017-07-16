@@ -1,0 +1,38 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.82
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "DISH_PUT.wav"
+		xmin = 0 
+		xmax = 0.82 
+		intervals: size = 6
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.05 
+			text = "d" 
+		invertals [2]:
+			xmin = 0.06 
+			xmax = 0.21 
+			text = "ih" 
+		invertals [3]:
+			xmin = 0.22 
+			xmax = 0.44 
+			text = "sh" 
+		invertals [4]:
+			xmin = 0.45 
+			xmax = 0.70 
+			text = "p" 
+		invertals [5]:
+			xmin = 0.71 
+			xmax = 0.79 
+			text = "uh" 
+		invertals [6]:
+			xmin = 0.80 
+			xmax = 0.82 
+			text = "t" 

@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.32
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "MONTPARNASSE_WHO.wav"
+		xmin = 0 
+		xmax = 1.32 
+		intervals: size = 12
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.06 
+			text = "m" 
+		invertals [2]:
+			xmin = 0.07 
+			xmax = 0.20 
+			text = "aa" 
+		invertals [3]:
+			xmin = 0.21 
+			xmax = 0.24 
+			text = "n" 
+		invertals [4]:
+			xmin = 0.25 
+			xmax = 0.31 
+			text = "t" 
+		invertals [5]:
+			xmin = 0.32 
+			xmax = 0.35 
+			text = "p" 
+		invertals [6]:
+			xmin = 0.36 
+			xmax = 0.39 
+			text = "aa" 
+		invertals [7]:
+			xmin = 0.40 
+			xmax = 0.42 
+			text = "r" 
+		invertals [8]:
+			xmin = 0.43 
+			xmax = 0.47 
+			text = "n" 
+		invertals [9]:
+			xmin = 0.48 
+			xmax = 0.59 
+			text = "ae" 
+		invertals [10]:
+			xmin = 0.60 
+			xmax = 0.74 
+			text = "hh" 
+		invertals [11]:
+			xmin = 0.75 
+			xmax = 0.77 
+			text = "uw" 
+		invertals [12]:
+			xmin = 0.78 
+			xmax = 1.32 
+			text = "sil" 

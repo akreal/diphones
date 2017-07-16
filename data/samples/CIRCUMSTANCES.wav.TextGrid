@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.12
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "CIRCUMSTANCES.wav"
+		xmin = 0 
+		xmax = 1.12 
+		intervals: size = 13
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.12 
+			text = "s" 
+		invertals [2]:
+			xmin = 0.13 
+			xmax = 0.20 
+			text = "uh" 
+		invertals [3]:
+			xmin = 0.21 
+			xmax = 0.23 
+			text = "r" 
+		invertals [4]:
+			xmin = 0.24 
+			xmax = 0.30 
+			text = "k" 
+		invertals [5]:
+			xmin = 0.31 
+			xmax = 0.35 
+			text = "ah" 
+		invertals [6]:
+			xmin = 0.36 
+			xmax = 0.41 
+			text = "m" 
+		invertals [7]:
+			xmin = 0.42 
+			xmax = 0.53 
+			text = "s" 
+		invertals [8]:
+			xmin = 0.54 
+			xmax = 0.57 
+			text = "t" 
+		invertals [9]:
+			xmin = 0.58 
+			xmax = 0.67 
+			text = "ae" 
+		invertals [10]:
+			xmin = 0.68 
+			xmax = 0.77 
+			text = "n" 
+		invertals [11]:
+			xmin = 0.78 
+			xmax = 0.84 
+			text = "s" 
+		invertals [12]:
+			xmin = 0.85 
+			xmax = 0.94 
+			text = "ah" 
+		invertals [13]:
+			xmin = 0.95 
+			xmax = 1.12 
+			text = "z" 

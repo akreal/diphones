@@ -1,0 +1,38 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.67
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "MAGPIE.wav"
+		xmin = 0 
+		xmax = 0.67 
+		intervals: size = 6
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.05 
+			text = "m" 
+		invertals [2]:
+			xmin = 0.06 
+			xmax = 0.28 
+			text = "ae" 
+		invertals [3]:
+			xmin = 0.29 
+			xmax = 0.31 
+			text = "g" 
+		invertals [4]:
+			xmin = 0.32 
+			xmax = 0.34 
+			text = "p" 
+		invertals [5]:
+			xmin = 0.35 
+			xmax = 0.62 
+			text = "aa" 
+		invertals [6]:
+			xmin = 0.63 
+			xmax = 0.67 
+			text = "iy" 

@@ -1,0 +1,54 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.64
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "WONDERING_IF.wav"
+		xmin = 0 
+		xmax = 0.64 
+		intervals: size = 10
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.08 
+			text = "w" 
+		invertals [2]:
+			xmin = 0.09 
+			xmax = 0.14 
+			text = "ah" 
+		invertals [3]:
+			xmin = 0.15 
+			xmax = 0.18 
+			text = "n" 
+		invertals [4]:
+			xmin = 0.19 
+			xmax = 0.21 
+			text = "d" 
+		invertals [5]:
+			xmin = 0.22 
+			xmax = 0.24 
+			text = "uh" 
+		invertals [6]:
+			xmin = 0.25 
+			xmax = 0.30 
+			text = "r" 
+		invertals [7]:
+			xmin = 0.31 
+			xmax = 0.39 
+			text = "ih" 
+		invertals [8]:
+			xmin = 0.40 
+			xmax = 0.45 
+			text = "ng" 
+		invertals [9]:
+			xmin = 0.46 
+			xmax = 0.58 
+			text = "ih" 
+		invertals [10]:
+			xmin = 0.59 
+			xmax = 0.64 
+			text = "f" 

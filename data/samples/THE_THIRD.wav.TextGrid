@@ -1,0 +1,38 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.43
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "THE_THIRD.wav"
+		xmin = 0 
+		xmax = 0.43 
+		intervals: size = 6
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "dh" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.06 
+			text = "ah" 
+		invertals [3]:
+			xmin = 0.07 
+			xmax = 0.17 
+			text = "th" 
+		invertals [4]:
+			xmin = 0.18 
+			xmax = 0.37 
+			text = "uh" 
+		invertals [5]:
+			xmin = 0.38 
+			xmax = 0.40 
+			text = "r" 
+		invertals [6]:
+			xmin = 0.41 
+			xmax = 0.43 
+			text = "d" 

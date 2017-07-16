@@ -1,0 +1,30 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.49
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "SHERPAS.wav"
+		xmin = 0 
+		xmax = 0.49 
+		intervals: size = 4
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.15 
+			text = "sh" 
+		invertals [2]:
+			xmin = 0.16 
+			xmax = 0.18 
+			text = "p" 
+		invertals [3]:
+			xmin = 0.19 
+			xmax = 0.38 
+			text = "ah" 
+		invertals [4]:
+			xmin = 0.39 
+			xmax = 0.49 
+			text = "z" 

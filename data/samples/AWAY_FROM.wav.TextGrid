@@ -1,0 +1,46 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.64
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "AWAY_FROM.wav"
+		xmin = 0 
+		xmax = 0.64 
+		intervals: size = 8
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.05 
+			text = "ah" 
+		invertals [2]:
+			xmin = 0.06 
+			xmax = 0.19 
+			text = "w" 
+		invertals [3]:
+			xmin = 0.20 
+			xmax = 0.22 
+			text = "eh" 
+		invertals [4]:
+			xmin = 0.23 
+			xmax = 0.27 
+			text = "iy" 
+		invertals [5]:
+			xmin = 0.28 
+			xmax = 0.44 
+			text = "f" 
+		invertals [6]:
+			xmin = 0.45 
+			xmax = 0.47 
+			text = "r" 
+		invertals [7]:
+			xmin = 0.48 
+			xmax = 0.51 
+			text = "ah" 
+		invertals [8]:
+			xmin = 0.52 
+			xmax = 0.64 
+			text = "m" 

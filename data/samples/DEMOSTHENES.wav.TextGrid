@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.71
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "DEMOSTHENES.wav"
+		xmin = 0 
+		xmax = 0.71 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "d" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.05 
+			text = "eh" 
+		invertals [3]:
+			xmin = 0.06 
+			xmax = 0.12 
+			text = "m" 
+		invertals [4]:
+			xmin = 0.13 
+			xmax = 0.25 
+			text = "ao" 
+		invertals [5]:
+			xmin = 0.26 
+			xmax = 0.28 
+			text = "uh" 
+		invertals [6]:
+			xmin = 0.29 
+			xmax = 0.33 
+			text = "s" 
+		invertals [7]:
+			xmin = 0.34 
+			xmax = 0.38 
+			text = "th" 
+		invertals [8]:
+			xmin = 0.39 
+			xmax = 0.62 
+			text = "n" 
+		invertals [9]:
+			xmin = 0.63 
+			xmax = 0.71 
+			text = "z" 

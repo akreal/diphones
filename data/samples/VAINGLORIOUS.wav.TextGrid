@@ -1,0 +1,58 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.99
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "VAINGLORIOUS.wav"
+		xmin = 0 
+		xmax = 0.99 
+		intervals: size = 11
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.07 
+			text = "v" 
+		invertals [2]:
+			xmin = 0.08 
+			xmax = 0.10 
+			text = "aa" 
+		invertals [3]:
+			xmin = 0.11 
+			xmax = 0.20 
+			text = "ih" 
+		invertals [4]:
+			xmin = 0.21 
+			xmax = 0.32 
+			text = "ng" 
+		invertals [5]:
+			xmin = 0.33 
+			xmax = 0.38 
+			text = "g" 
+		invertals [6]:
+			xmin = 0.39 
+			xmax = 0.50 
+			text = "l" 
+		invertals [7]:
+			xmin = 0.51 
+			xmax = 0.53 
+			text = "ao" 
+		invertals [8]:
+			xmin = 0.54 
+			xmax = 0.67 
+			text = "r" 
+		invertals [9]:
+			xmin = 0.68 
+			xmax = 0.76 
+			text = "iy" 
+		invertals [10]:
+			xmin = 0.77 
+			xmax = 0.84 
+			text = "ah" 
+		invertals [11]:
+			xmin = 0.85 
+			xmax = 0.99 
+			text = "s" 

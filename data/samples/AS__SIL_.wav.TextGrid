@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.57
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "AS__SIL_.wav"
+		xmin = 0 
+		xmax = 0.57 
+		intervals: size = 3
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.24 
+			text = "ae" 
+		invertals [2]:
+			xmin = 0.25 
+			xmax = 0.42 
+			text = "z" 
+		invertals [3]:
+			xmin = 0.43 
+			xmax = 0.57 
+			text = "sil" 

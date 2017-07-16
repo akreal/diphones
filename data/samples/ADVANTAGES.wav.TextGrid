@@ -1,0 +1,54 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.87
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "ADVANTAGES.wav"
+		xmin = 0 
+		xmax = 0.87 
+		intervals: size = 10
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "ae" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.05 
+			text = "d" 
+		invertals [3]:
+			xmin = 0.06 
+			xmax = 0.08 
+			text = "v" 
+		invertals [4]:
+			xmin = 0.09 
+			xmax = 0.22 
+			text = "ae" 
+		invertals [5]:
+			xmin = 0.23 
+			xmax = 0.27 
+			text = "n" 
+		invertals [6]:
+			xmin = 0.28 
+			xmax = 0.30 
+			text = "t" 
+		invertals [7]:
+			xmin = 0.31 
+			xmax = 0.36 
+			text = "ih" 
+		invertals [8]:
+			xmin = 0.37 
+			xmax = 0.44 
+			text = "jh" 
+		invertals [9]:
+			xmin = 0.45 
+			xmax = 0.67 
+			text = "ih" 
+		invertals [10]:
+			xmin = 0.68 
+			xmax = 0.87 
+			text = "z" 

@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.01
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "MIRAGE_LOOMED.wav"
+		xmin = 0 
+		xmax = 1.01 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "m" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.05 
+			text = "uh" 
+		invertals [3]:
+			xmin = 0.06 
+			xmax = 0.15 
+			text = "r" 
+		invertals [4]:
+			xmin = 0.16 
+			xmax = 0.39 
+			text = "aa" 
+		invertals [5]:
+			xmin = 0.40 
+			xmax = 0.51 
+			text = "zh" 
+		invertals [6]:
+			xmin = 0.52 
+			xmax = 0.56 
+			text = "l" 
+		invertals [7]:
+			xmin = 0.57 
+			xmax = 0.85 
+			text = "uw" 
+		invertals [8]:
+			xmin = 0.86 
+			xmax = 0.97 
+			text = "m" 
+		invertals [9]:
+			xmin = 0.98 
+			xmax = 1.01 
+			text = "d" 

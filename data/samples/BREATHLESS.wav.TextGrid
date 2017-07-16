@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.44
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "BREATHLESS.wav"
+		xmin = 0 
+		xmax = 0.44 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.04 
+			text = "b" 
+		invertals [2]:
+			xmin = 0.05 
+			xmax = 0.13 
+			text = "r" 
+		invertals [3]:
+			xmin = 0.14 
+			xmax = 0.18 
+			text = "eh" 
+		invertals [4]:
+			xmin = 0.19 
+			xmax = 0.26 
+			text = "th" 
+		invertals [5]:
+			xmin = 0.27 
+			xmax = 0.30 
+			text = "l" 
+		invertals [6]:
+			xmin = 0.31 
+			xmax = 0.37 
+			text = "ah" 
+		invertals [7]:
+			xmin = 0.38 
+			xmax = 0.44 
+			text = "s" 

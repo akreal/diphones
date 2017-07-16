@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.23
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "ASHA.wav"
+		xmin = 0 
+		xmax = 0.23 
+		intervals: size = 3
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.11 
+			text = "aa" 
+		invertals [2]:
+			xmin = 0.12 
+			xmax = 0.19 
+			text = "sh" 
+		invertals [3]:
+			xmin = 0.20 
+			xmax = 0.23 
+			text = "ah" 

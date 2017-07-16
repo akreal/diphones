@@ -1,0 +1,34 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.38
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "FRIEND.wav"
+		xmin = 0 
+		xmax = 0.38 
+		intervals: size = 5
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.11 
+			text = "f" 
+		invertals [2]:
+			xmin = 0.12 
+			xmax = 0.16 
+			text = "r" 
+		invertals [3]:
+			xmin = 0.17 
+			xmax = 0.24 
+			text = "eh" 
+		invertals [4]:
+			xmin = 0.25 
+			xmax = 0.35 
+			text = "n" 
+		invertals [5]:
+			xmin = 0.36 
+			xmax = 0.38 
+			text = "d" 

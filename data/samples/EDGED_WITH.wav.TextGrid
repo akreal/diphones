@@ -1,0 +1,38 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.46
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "EDGED_WITH.wav"
+		xmin = 0 
+		xmax = 0.46 
+		intervals: size = 6
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.11 
+			text = "eh" 
+		invertals [2]:
+			xmin = 0.12 
+			xmax = 0.24 
+			text = "jh" 
+		invertals [3]:
+			xmin = 0.25 
+			xmax = 0.29 
+			text = "d" 
+		invertals [4]:
+			xmin = 0.30 
+			xmax = 0.36 
+			text = "w" 
+		invertals [5]:
+			xmin = 0.37 
+			xmax = 0.41 
+			text = "ih" 
+		invertals [6]:
+			xmin = 0.42 
+			xmax = 0.46 
+			text = "dh" 

@@ -1,0 +1,38 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.43
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "GODFREY.wav"
+		xmin = 0 
+		xmax = 0.43 
+		intervals: size = 6
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.03 
+			text = "g" 
+		invertals [2]:
+			xmin = 0.04 
+			xmax = 0.15 
+			text = "aa" 
+		invertals [3]:
+			xmin = 0.16 
+			xmax = 0.26 
+			text = "d" 
+		invertals [4]:
+			xmin = 0.27 
+			xmax = 0.30 
+			text = "f" 
+		invertals [5]:
+			xmin = 0.31 
+			xmax = 0.35 
+			text = "r" 
+		invertals [6]:
+			xmin = 0.36 
+			xmax = 0.43 
+			text = "iy" 

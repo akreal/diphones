@@ -1,0 +1,46 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.70
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "SAW_BEFORE.wav"
+		xmin = 0 
+		xmax = 0.70 
+		intervals: size = 8
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.08 
+			text = "sil" 
+		invertals [2]:
+			xmin = 0.09 
+			xmax = 0.11 
+			text = "s" 
+		invertals [3]:
+			xmin = 0.12 
+			xmax = 0.26 
+			text = "ao" 
+		invertals [4]:
+			xmin = 0.27 
+			xmax = 0.33 
+			text = "b" 
+		invertals [5]:
+			xmin = 0.34 
+			xmax = 0.47 
+			text = "ih" 
+		invertals [6]:
+			xmin = 0.48 
+			xmax = 0.53 
+			text = "f" 
+		invertals [7]:
+			xmin = 0.54 
+			xmax = 0.66 
+			text = "ao" 
+		invertals [8]:
+			xmin = 0.67 
+			xmax = 0.70 
+			text = "r" 

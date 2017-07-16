@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.58
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "LIKELY_EH.wav"
+		xmin = 0 
+		xmax = 0.58 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.06 
+			text = "l" 
+		invertals [2]:
+			xmin = 0.07 
+			xmax = 0.15 
+			text = "aa" 
+		invertals [3]:
+			xmin = 0.16 
+			xmax = 0.23 
+			text = "iy" 
+		invertals [4]:
+			xmin = 0.24 
+			xmax = 0.27 
+			text = "k" 
+		invertals [5]:
+			xmin = 0.28 
+			xmax = 0.33 
+			text = "l" 
+		invertals [6]:
+			xmin = 0.34 
+			xmax = 0.36 
+			text = "iy" 
+		invertals [7]:
+			xmin = 0.37 
+			xmax = 0.58 
+			text = "eh" 

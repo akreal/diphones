@@ -1,0 +1,30 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.57
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "BOOM.wav"
+		xmin = 0 
+		xmax = 0.57 
+		intervals: size = 4
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.05 
+			text = "b" 
+		invertals [2]:
+			xmin = 0.06 
+			xmax = 0.35 
+			text = "uw" 
+		invertals [3]:
+			xmin = 0.36 
+			xmax = 0.46 
+			text = "m" 
+		invertals [4]:
+			xmin = 0.47 
+			xmax = 0.57 
+			text = "sil" 

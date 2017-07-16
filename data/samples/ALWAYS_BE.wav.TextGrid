@@ -1,0 +1,46 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.58
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "ALWAYS_BE.wav"
+		xmin = 0 
+		xmax = 0.58 
+		intervals: size = 8
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.20 
+			text = "ao" 
+		invertals [2]:
+			xmin = 0.21 
+			xmax = 0.23 
+			text = "l" 
+		invertals [3]:
+			xmin = 0.24 
+			xmax = 0.30 
+			text = "w" 
+		invertals [4]:
+			xmin = 0.31 
+			xmax = 0.33 
+			text = "eh" 
+		invertals [5]:
+			xmin = 0.34 
+			xmax = 0.37 
+			text = "iy" 
+		invertals [6]:
+			xmin = 0.38 
+			xmax = 0.45 
+			text = "z" 
+		invertals [7]:
+			xmin = 0.46 
+			xmax = 0.50 
+			text = "b" 
+		invertals [8]:
+			xmin = 0.51 
+			xmax = 0.58 
+			text = "iy" 

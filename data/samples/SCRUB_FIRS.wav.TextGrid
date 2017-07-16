@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.59
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "SCRUB_FIRS.wav"
+		xmin = 0 
+		xmax = 0.59 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.09 
+			text = "s" 
+		invertals [2]:
+			xmin = 0.10 
+			xmax = 0.15 
+			text = "k" 
+		invertals [3]:
+			xmin = 0.16 
+			xmax = 0.19 
+			text = "r" 
+		invertals [4]:
+			xmin = 0.20 
+			xmax = 0.27 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.28 
+			xmax = 0.30 
+			text = "b" 
+		invertals [6]:
+			xmin = 0.31 
+			xmax = 0.39 
+			text = "f" 
+		invertals [7]:
+			xmin = 0.40 
+			xmax = 0.42 
+			text = "uh" 
+		invertals [8]:
+			xmin = 0.43 
+			xmax = 0.50 
+			text = "r" 
+		invertals [9]:
+			xmin = 0.51 
+			xmax = 0.59 
+			text = "z" 

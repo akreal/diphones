@@ -1,0 +1,58 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.74
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "PATCHWORK_GIRL.wav"
+		xmin = 0 
+		xmax = 0.74 
+		intervals: size = 11
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.03 
+			text = "p" 
+		invertals [2]:
+			xmin = 0.04 
+			xmax = 0.20 
+			text = "ae" 
+		invertals [3]:
+			xmin = 0.21 
+			xmax = 0.29 
+			text = "ch" 
+		invertals [4]:
+			xmin = 0.30 
+			xmax = 0.39 
+			text = "w" 
+		invertals [5]:
+			xmin = 0.40 
+			xmax = 0.44 
+			text = "uh" 
+		invertals [6]:
+			xmin = 0.45 
+			xmax = 0.47 
+			text = "r" 
+		invertals [7]:
+			xmin = 0.48 
+			xmax = 0.50 
+			text = "k" 
+		invertals [8]:
+			xmin = 0.51 
+			xmax = 0.55 
+			text = "g" 
+		invertals [9]:
+			xmin = 0.56 
+			xmax = 0.58 
+			text = "uh" 
+		invertals [10]:
+			xmin = 0.59 
+			xmax = 0.67 
+			text = "r" 
+		invertals [11]:
+			xmin = 0.68 
+			xmax = 0.74 
+			text = "l" 

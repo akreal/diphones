@@ -1,0 +1,34 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.49
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "HANK_S.wav"
+		xmin = 0 
+		xmax = 0.49 
+		intervals: size = 5
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.21 
+			text = "hh" 
+		invertals [2]:
+			xmin = 0.22 
+			xmax = 0.35 
+			text = "ae" 
+		invertals [3]:
+			xmin = 0.36 
+			xmax = 0.39 
+			text = "n" 
+		invertals [4]:
+			xmin = 0.40 
+			xmax = 0.45 
+			text = "k" 
+		invertals [5]:
+			xmin = 0.46 
+			xmax = 0.49 
+			text = "s" 

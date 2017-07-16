@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.45
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "CRUELER.wav"
+		xmin = 0 
+		xmax = 0.45 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.10 
+			text = "k" 
+		invertals [2]:
+			xmin = 0.11 
+			xmax = 0.15 
+			text = "r" 
+		invertals [3]:
+			xmin = 0.16 
+			xmax = 0.32 
+			text = "uh" 
+		invertals [4]:
+			xmin = 0.33 
+			xmax = 0.35 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.36 
+			xmax = 0.38 
+			text = "l" 
+		invertals [6]:
+			xmin = 0.39 
+			xmax = 0.42 
+			text = "uh" 
+		invertals [7]:
+			xmin = 0.43 
+			xmax = 0.45 
+			text = "r" 

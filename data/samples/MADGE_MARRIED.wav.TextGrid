@@ -1,0 +1,46 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.70
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "MADGE_MARRIED.wav"
+		xmin = 0 
+		xmax = 0.70 
+		intervals: size = 8
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.08 
+			text = "m" 
+		invertals [2]:
+			xmin = 0.09 
+			xmax = 0.24 
+			text = "ae" 
+		invertals [3]:
+			xmin = 0.25 
+			xmax = 0.35 
+			text = "jh" 
+		invertals [4]:
+			xmin = 0.36 
+			xmax = 0.42 
+			text = "m" 
+		invertals [5]:
+			xmin = 0.43 
+			xmax = 0.61 
+			text = "eh" 
+		invertals [6]:
+			xmin = 0.62 
+			xmax = 0.64 
+			text = "r" 
+		invertals [7]:
+			xmin = 0.65 
+			xmax = 0.67 
+			text = "iy" 
+		invertals [8]:
+			xmin = 0.68 
+			xmax = 0.70 
+			text = "d" 

@@ -1,0 +1,54 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.91
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "SEQUOIA_AVC.wav"
+		xmin = 0 
+		xmax = 0.91 
+		intervals: size = 10
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.13 
+			text = "s" 
+		invertals [2]:
+			xmin = 0.14 
+			xmax = 0.17 
+			text = "ih" 
+		invertals [3]:
+			xmin = 0.18 
+			xmax = 0.25 
+			text = "k" 
+		invertals [4]:
+			xmin = 0.26 
+			xmax = 0.30 
+			text = "w" 
+		invertals [5]:
+			xmin = 0.31 
+			xmax = 0.33 
+			text = "ao" 
+		invertals [6]:
+			xmin = 0.34 
+			xmax = 0.78 
+			text = "iy" 
+		invertals [7]:
+			xmin = 0.79 
+			xmax = 0.82 
+			text = "ah" 
+		invertals [8]:
+			xmin = 0.83 
+			xmax = 0.85 
+			text = "ae" 
+		invertals [9]:
+			xmin = 0.86 
+			xmax = 0.88 
+			text = "v" 
+		invertals [10]:
+			xmin = 0.89 
+			xmax = 0.91 
+			text = "k" 

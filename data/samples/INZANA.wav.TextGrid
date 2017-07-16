@@ -1,0 +1,38 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.49
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "INZANA.wav"
+		xmin = 0 
+		xmax = 0.49 
+		intervals: size = 6
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "ih" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.11 
+			text = "n" 
+		invertals [3]:
+			xmin = 0.12 
+			xmax = 0.22 
+			text = "z" 
+		invertals [4]:
+			xmin = 0.23 
+			xmax = 0.36 
+			text = "ae" 
+		invertals [5]:
+			xmin = 0.37 
+			xmax = 0.39 
+			text = "n" 
+		invertals [6]:
+			xmin = 0.40 
+			xmax = 0.49 
+			text = "ah" 

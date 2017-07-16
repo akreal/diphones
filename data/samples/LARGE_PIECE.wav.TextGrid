@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.69
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "LARGE_PIECE.wav"
+		xmin = 0 
+		xmax = 0.69 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.19 
+			text = "l" 
+		invertals [2]:
+			xmin = 0.20 
+			xmax = 0.36 
+			text = "aa" 
+		invertals [3]:
+			xmin = 0.37 
+			xmax = 0.40 
+			text = "r" 
+		invertals [4]:
+			xmin = 0.41 
+			xmax = 0.50 
+			text = "jh" 
+		invertals [5]:
+			xmin = 0.51 
+			xmax = 0.56 
+			text = "p" 
+		invertals [6]:
+			xmin = 0.57 
+			xmax = 0.64 
+			text = "iy" 
+		invertals [7]:
+			xmin = 0.65 
+			xmax = 0.69 
+			text = "s" 

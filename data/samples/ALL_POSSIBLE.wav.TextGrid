@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.79
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "ALL_POSSIBLE.wav"
+		xmin = 0 
+		xmax = 0.79 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.15 
+			text = "ao" 
+		invertals [2]:
+			xmin = 0.16 
+			xmax = 0.18 
+			text = "l" 
+		invertals [3]:
+			xmin = 0.19 
+			xmax = 0.28 
+			text = "p" 
+		invertals [4]:
+			xmin = 0.29 
+			xmax = 0.48 
+			text = "aa" 
+		invertals [5]:
+			xmin = 0.49 
+			xmax = 0.58 
+			text = "s" 
+		invertals [6]:
+			xmin = 0.59 
+			xmax = 0.65 
+			text = "ah" 
+		invertals [7]:
+			xmin = 0.66 
+			xmax = 0.68 
+			text = "b" 
+		invertals [8]:
+			xmin = 0.69 
+			xmax = 0.71 
+			text = "ah" 
+		invertals [9]:
+			xmin = 0.72 
+			xmax = 0.79 
+			text = "l" 

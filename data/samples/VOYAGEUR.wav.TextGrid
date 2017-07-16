@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.51
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "VOYAGEUR.wav"
+		xmin = 0 
+		xmax = 0.51 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.05 
+			text = "v" 
+		invertals [2]:
+			xmin = 0.06 
+			xmax = 0.15 
+			text = "ao" 
+		invertals [3]:
+			xmin = 0.16 
+			xmax = 0.18 
+			text = "iy" 
+		invertals [4]:
+			xmin = 0.19 
+			xmax = 0.25 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.26 
+			xmax = 0.35 
+			text = "zh" 
+		invertals [6]:
+			xmin = 0.36 
+			xmax = 0.38 
+			text = "uh" 
+		invertals [7]:
+			xmin = 0.39 
+			xmax = 0.51 
+			text = "r" 

@@ -1,0 +1,54 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.81
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "EXPLOSION.wav"
+		xmin = 0 
+		xmax = 0.81 
+		intervals: size = 10
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.05 
+			text = "ih" 
+		invertals [2]:
+			xmin = 0.06 
+			xmax = 0.15 
+			text = "k" 
+		invertals [3]:
+			xmin = 0.16 
+			xmax = 0.33 
+			text = "s" 
+		invertals [4]:
+			xmin = 0.34 
+			xmax = 0.40 
+			text = "p" 
+		invertals [5]:
+			xmin = 0.41 
+			xmax = 0.53 
+			text = "l" 
+		invertals [6]:
+			xmin = 0.54 
+			xmax = 0.56 
+			text = "ao" 
+		invertals [7]:
+			xmin = 0.57 
+			xmax = 0.60 
+			text = "uh" 
+		invertals [8]:
+			xmin = 0.61 
+			xmax = 0.70 
+			text = "zh" 
+		invertals [9]:
+			xmin = 0.71 
+			xmax = 0.75 
+			text = "ah" 
+		invertals [10]:
+			xmin = 0.76 
+			xmax = 0.81 
+			text = "n" 

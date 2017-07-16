@@ -1,0 +1,58 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.12
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "CANON_AINGER.wav"
+		xmin = 0 
+		xmax = 1.12 
+		intervals: size = 11
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.04 
+			text = "k" 
+		invertals [2]:
+			xmin = 0.05 
+			xmax = 0.15 
+			text = "ae" 
+		invertals [3]:
+			xmin = 0.16 
+			xmax = 0.18 
+			text = "n" 
+		invertals [4]:
+			xmin = 0.19 
+			xmax = 0.25 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.26 
+			xmax = 0.36 
+			text = "n" 
+		invertals [6]:
+			xmin = 0.37 
+			xmax = 0.44 
+			text = "eh" 
+		invertals [7]:
+			xmin = 0.45 
+			xmax = 0.47 
+			text = "iy" 
+		invertals [8]:
+			xmin = 0.48 
+			xmax = 0.68 
+			text = "ng" 
+		invertals [9]:
+			xmin = 0.69 
+			xmax = 0.76 
+			text = "uh" 
+		invertals [10]:
+			xmin = 0.77 
+			xmax = 0.92 
+			text = "r" 
+		invertals [11]:
+			xmin = 0.93 
+			xmax = 1.12 
+			text = "sil" 

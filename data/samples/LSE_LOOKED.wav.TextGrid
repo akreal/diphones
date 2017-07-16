@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.62
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "LSE_LOOKED.wav"
+		xmin = 0 
+		xmax = 0.62 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.09 
+			text = "sil" 
+		invertals [2]:
+			xmin = 0.10 
+			xmax = 0.22 
+			text = "l" 
+		invertals [3]:
+			xmin = 0.23 
+			xmax = 0.26 
+			text = "s" 
+		invertals [4]:
+			xmin = 0.27 
+			xmax = 0.29 
+			text = "l" 
+		invertals [5]:
+			xmin = 0.30 
+			xmax = 0.56 
+			text = "uh" 
+		invertals [6]:
+			xmin = 0.57 
+			xmax = 0.59 
+			text = "k" 
+		invertals [7]:
+			xmin = 0.60 
+			xmax = 0.62 
+			text = "t" 

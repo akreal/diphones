@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.47
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "SUBWAY.wav"
+		xmin = 0 
+		xmax = 0.47 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "sil" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.06 
+			text = "s" 
+		invertals [3]:
+			xmin = 0.07 
+			xmax = 0.22 
+			text = "ah" 
+		invertals [4]:
+			xmin = 0.23 
+			xmax = 0.26 
+			text = "b" 
+		invertals [5]:
+			xmin = 0.27 
+			xmax = 0.38 
+			text = "w" 
+		invertals [6]:
+			xmin = 0.39 
+			xmax = 0.44 
+			text = "eh" 
+		invertals [7]:
+			xmin = 0.45 
+			xmax = 0.47 
+			text = "iy" 

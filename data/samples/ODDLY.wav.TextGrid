@@ -1,0 +1,34 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.39
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "ODDLY.wav"
+		xmin = 0 
+		xmax = 0.39 
+		intervals: size = 5
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.14 
+			text = "aa" 
+		invertals [2]:
+			xmin = 0.15 
+			xmax = 0.19 
+			text = "d" 
+		invertals [3]:
+			xmin = 0.20 
+			xmax = 0.26 
+			text = "l" 
+		invertals [4]:
+			xmin = 0.27 
+			xmax = 0.32 
+			text = "iy" 
+		invertals [5]:
+			xmin = 0.33 
+			xmax = 0.39 
+			text = "sil" 

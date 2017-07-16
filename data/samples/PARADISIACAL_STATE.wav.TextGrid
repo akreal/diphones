@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.81
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "PARADISIACAL_STATE.wav"
+		xmin = 0 
+		xmax = 1.81 
+		intervals: size = 16
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.08 
+			text = "p" 
+		invertals [2]:
+			xmin = 0.09 
+			xmax = 0.36 
+			text = "eh" 
+		invertals [3]:
+			xmin = 0.37 
+			xmax = 0.39 
+			text = "ah" 
+		invertals [4]:
+			xmin = 0.40 
+			xmax = 0.43 
+			text = "d" 
+		invertals [5]:
+			xmin = 0.44 
+			xmax = 0.52 
+			text = "ih" 
+		invertals [6]:
+			xmin = 0.53 
+			xmax = 0.61 
+			text = "zh" 
+		invertals [7]:
+			xmin = 0.62 
+			xmax = 0.74 
+			text = "iy" 
+		invertals [8]:
+			xmin = 0.75 
+			xmax = 0.87 
+			text = "aa" 
+		invertals [9]:
+			xmin = 0.88 
+			xmax = 0.96 
+			text = "k" 
+		invertals [10]:
+			xmin = 0.97 
+			xmax = 1.02 
+			text = "ah" 
+		invertals [11]:
+			xmin = 1.03 
+			xmax = 1.31 
+			text = "l" 
+		invertals [12]:
+			xmin = 1.32 
+			xmax = 1.50 
+			text = "s" 
+		invertals [13]:
+			xmin = 1.51 
+			xmax = 1.55 
+			text = "t" 
+		invertals [14]:
+			xmin = 1.56 
+			xmax = 1.68 
+			text = "eh" 
+		invertals [15]:
+			xmin = 1.69 
+			xmax = 1.78 
+			text = "iy" 
+		invertals [16]:
+			xmin = 1.79 
+			xmax = 1.81 
+			text = "t" 

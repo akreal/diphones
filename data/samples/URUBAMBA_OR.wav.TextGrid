@@ -1,0 +1,58 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.86
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "URUBAMBA_OR.wav"
+		xmin = 0 
+		xmax = 0.86 
+		intervals: size = 11
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.04 
+			text = "uh" 
+		invertals [2]:
+			xmin = 0.05 
+			xmax = 0.09 
+			text = "uh" 
+		invertals [3]:
+			xmin = 0.10 
+			xmax = 0.15 
+			text = "r" 
+		invertals [4]:
+			xmin = 0.16 
+			xmax = 0.22 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.23 
+			xmax = 0.29 
+			text = "b" 
+		invertals [6]:
+			xmin = 0.30 
+			xmax = 0.45 
+			text = "aa" 
+		invertals [7]:
+			xmin = 0.46 
+			xmax = 0.52 
+			text = "m" 
+		invertals [8]:
+			xmin = 0.53 
+			xmax = 0.56 
+			text = "b" 
+		invertals [9]:
+			xmin = 0.57 
+			xmax = 0.60 
+			text = "ah" 
+		invertals [10]:
+			xmin = 0.61 
+			xmax = 0.76 
+			text = "ao" 
+		invertals [11]:
+			xmin = 0.77 
+			xmax = 0.86 
+			text = "r" 

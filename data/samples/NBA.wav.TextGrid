@@ -1,0 +1,34 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.65
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "NBA.wav"
+		xmin = 0 
+		xmax = 0.65 
+		intervals: size = 5
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.18 
+			text = "sil" 
+		invertals [2]:
+			xmin = 0.19 
+			xmax = 0.30 
+			text = "n" 
+		invertals [3]:
+			xmin = 0.31 
+			xmax = 0.35 
+			text = "b" 
+		invertals [4]:
+			xmin = 0.36 
+			xmax = 0.38 
+			text = "aa" 
+		invertals [5]:
+			xmin = 0.39 
+			xmax = 0.65 
+			text = "sil" 

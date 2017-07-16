@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.67
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "METHANOCOCCUS_JANNASCHII.wav"
+		xmin = 0 
+		xmax = 1.67 
+		intervals: size = 18
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.05 
+			text = "m" 
+		invertals [2]:
+			xmin = 0.06 
+			xmax = 0.10 
+			text = "eh" 
+		invertals [3]:
+			xmin = 0.11 
+			xmax = 0.18 
+			text = "th" 
+		invertals [4]:
+			xmin = 0.19 
+			xmax = 0.27 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.28 
+			xmax = 0.33 
+			text = "n" 
+		invertals [6]:
+			xmin = 0.34 
+			xmax = 0.43 
+			text = "ah" 
+		invertals [7]:
+			xmin = 0.44 
+			xmax = 0.46 
+			text = "k" 
+		invertals [8]:
+			xmin = 0.47 
+			xmax = 0.65 
+			text = "ao" 
+		invertals [9]:
+			xmin = 0.66 
+			xmax = 0.71 
+			text = "uh" 
+		invertals [10]:
+			xmin = 0.72 
+			xmax = 0.74 
+			text = "ah" 
+		invertals [11]:
+			xmin = 0.75 
+			xmax = 0.78 
+			text = "s" 
+		invertals [12]:
+			xmin = 0.79 
+			xmax = 0.81 
+			text = "jh" 
+		invertals [13]:
+			xmin = 0.82 
+			xmax = 0.86 
+			text = "ae" 
+		invertals [14]:
+			xmin = 0.87 
+			xmax = 0.95 
+			text = "n" 
+		invertals [15]:
+			xmin = 0.96 
+			xmax = 1.55 
+			text = "ae" 
+		invertals [16]:
+			xmin = 1.56 
+			xmax = 1.58 
+			text = "s" 
+		invertals [17]:
+			xmin = 1.59 
+			xmax = 1.61 
+			text = "ch" 
+		invertals [18]:
+			xmin = 1.62 
+			xmax = 1.67 
+			text = "iy" 

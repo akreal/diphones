@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.01
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "RASKOLNIKOV_SAW.wav"
+		xmin = 0 
+		xmax = 1.01 
+		intervals: size = 15
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.05 
+			text = "sil" 
+		invertals [2]:
+			xmin = 0.06 
+			xmax = 0.08 
+			text = "r" 
+		invertals [3]:
+			xmin = 0.09 
+			xmax = 0.13 
+			text = "aa" 
+		invertals [4]:
+			xmin = 0.14 
+			xmax = 0.24 
+			text = "s" 
+		invertals [5]:
+			xmin = 0.25 
+			xmax = 0.33 
+			text = "k" 
+		invertals [6]:
+			xmin = 0.34 
+			xmax = 0.39 
+			text = "ao" 
+		invertals [7]:
+			xmin = 0.40 
+			xmax = 0.42 
+			text = "uh" 
+		invertals [8]:
+			xmin = 0.43 
+			xmax = 0.45 
+			text = "l" 
+		invertals [9]:
+			xmin = 0.46 
+			xmax = 0.53 
+			text = "n" 
+		invertals [10]:
+			xmin = 0.54 
+			xmax = 0.60 
+			text = "ih" 
+		invertals [11]:
+			xmin = 0.61 
+			xmax = 0.65 
+			text = "k" 
+		invertals [12]:
+			xmin = 0.66 
+			xmax = 0.70 
+			text = "aa" 
+		invertals [13]:
+			xmin = 0.71 
+			xmax = 0.74 
+			text = "v" 
+		invertals [14]:
+			xmin = 0.75 
+			xmax = 0.90 
+			text = "s" 
+		invertals [15]:
+			xmin = 0.91 
+			xmax = 1.01 
+			text = "ao" 

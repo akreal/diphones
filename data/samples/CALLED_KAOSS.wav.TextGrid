@@ -1,0 +1,54 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.82
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "CALLED_KAOSS.wav"
+		xmin = 0 
+		xmax = 0.82 
+		intervals: size = 10
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.04 
+			text = "sil" 
+		invertals [2]:
+			xmin = 0.05 
+			xmax = 0.08 
+			text = "k" 
+		invertals [3]:
+			xmin = 0.09 
+			xmax = 0.32 
+			text = "ao" 
+		invertals [4]:
+			xmin = 0.33 
+			xmax = 0.38 
+			text = "l" 
+		invertals [5]:
+			xmin = 0.39 
+			xmax = 0.41 
+			text = "d" 
+		invertals [6]:
+			xmin = 0.42 
+			xmax = 0.44 
+			text = "k" 
+		invertals [7]:
+			xmin = 0.45 
+			xmax = 0.59 
+			text = "eh" 
+		invertals [8]:
+			xmin = 0.60 
+			xmax = 0.62 
+			text = "iy" 
+		invertals [9]:
+			xmin = 0.63 
+			xmax = 0.75 
+			text = "ao" 
+		invertals [10]:
+			xmin = 0.76 
+			xmax = 0.82 
+			text = "sil" 

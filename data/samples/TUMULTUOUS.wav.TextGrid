@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.50
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "TUMULTUOUS.wav"
+		xmin = 0 
+		xmax = 0.50 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.04 
+			text = "t" 
+		invertals [2]:
+			xmin = 0.05 
+			xmax = 0.09 
+			text = "uw" 
+		invertals [3]:
+			xmin = 0.10 
+			xmax = 0.12 
+			text = "m" 
+		invertals [4]:
+			xmin = 0.13 
+			xmax = 0.16 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.17 
+			xmax = 0.25 
+			text = "l" 
+		invertals [6]:
+			xmin = 0.26 
+			xmax = 0.35 
+			text = "ch" 
+		invertals [7]:
+			xmin = 0.36 
+			xmax = 0.38 
+			text = "uw" 
+		invertals [8]:
+			xmin = 0.39 
+			xmax = 0.41 
+			text = "ah" 
+		invertals [9]:
+			xmin = 0.42 
+			xmax = 0.50 
+			text = "s" 

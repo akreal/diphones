@@ -1,0 +1,34 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.58
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "TWICE.wav"
+		xmin = 0 
+		xmax = 0.58 
+		intervals: size = 5
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.09 
+			text = "t" 
+		invertals [2]:
+			xmin = 0.10 
+			xmax = 0.14 
+			text = "w" 
+		invertals [3]:
+			xmin = 0.15 
+			xmax = 0.21 
+			text = "aa" 
+		invertals [4]:
+			xmin = 0.22 
+			xmax = 0.35 
+			text = "iy" 
+		invertals [5]:
+			xmin = 0.36 
+			xmax = 0.58 
+			text = "s" 

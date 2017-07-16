@@ -1,0 +1,30 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.39
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "SPOT.wav"
+		xmin = 0 
+		xmax = 0.39 
+		intervals: size = 4
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.14 
+			text = "s" 
+		invertals [2]:
+			xmin = 0.15 
+			xmax = 0.17 
+			text = "p" 
+		invertals [3]:
+			xmin = 0.18 
+			xmax = 0.27 
+			text = "aa" 
+		invertals [4]:
+			xmin = 0.28 
+			xmax = 0.39 
+			text = "t" 

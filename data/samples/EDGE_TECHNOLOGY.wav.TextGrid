@@ -1,0 +1,58 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.81
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "EDGE_TECHNOLOGY.wav"
+		xmin = 0 
+		xmax = 0.81 
+		intervals: size = 11
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.08 
+			text = "eh" 
+		invertals [2]:
+			xmin = 0.09 
+			xmax = 0.17 
+			text = "jh" 
+		invertals [3]:
+			xmin = 0.18 
+			xmax = 0.22 
+			text = "t" 
+		invertals [4]:
+			xmin = 0.23 
+			xmax = 0.30 
+			text = "eh" 
+		invertals [5]:
+			xmin = 0.31 
+			xmax = 0.35 
+			text = "k" 
+		invertals [6]:
+			xmin = 0.36 
+			xmax = 0.39 
+			text = "n" 
+		invertals [7]:
+			xmin = 0.40 
+			xmax = 0.52 
+			text = "aa" 
+		invertals [8]:
+			xmin = 0.53 
+			xmax = 0.55 
+			text = "l" 
+		invertals [9]:
+			xmin = 0.56 
+			xmax = 0.63 
+			text = "ah" 
+		invertals [10]:
+			xmin = 0.64 
+			xmax = 0.69 
+			text = "jh" 
+		invertals [11]:
+			xmin = 0.70 
+			xmax = 0.81 
+			text = "iy" 

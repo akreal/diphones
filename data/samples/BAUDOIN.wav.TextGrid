@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.47
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "BAUDOIN.wav"
+		xmin = 0 
+		xmax = 0.47 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "b" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.10 
+			text = "ao" 
+		invertals [3]:
+			xmin = 0.11 
+			xmax = 0.14 
+			text = "uh" 
+		invertals [4]:
+			xmin = 0.15 
+			xmax = 0.17 
+			text = "d" 
+		invertals [5]:
+			xmin = 0.18 
+			xmax = 0.20 
+			text = "w" 
+		invertals [6]:
+			xmin = 0.21 
+			xmax = 0.31 
+			text = "aa" 
+		invertals [7]:
+			xmin = 0.32 
+			xmax = 0.34 
+			text = "eh" 
+		invertals [8]:
+			xmin = 0.35 
+			xmax = 0.37 
+			text = "iy" 
+		invertals [9]:
+			xmin = 0.38 
+			xmax = 0.47 
+			text = "n" 

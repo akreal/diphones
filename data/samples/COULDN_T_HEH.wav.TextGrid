@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.85
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "COULDN_T_HEH.wav"
+		xmin = 0 
+		xmax = 0.85 
+		intervals: size = 9
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.13 
+			text = "k" 
+		invertals [2]:
+			xmin = 0.14 
+			xmax = 0.27 
+			text = "uh" 
+		invertals [3]:
+			xmin = 0.28 
+			xmax = 0.30 
+			text = "d" 
+		invertals [4]:
+			xmin = 0.31 
+			xmax = 0.33 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.34 
+			xmax = 0.47 
+			text = "n" 
+		invertals [6]:
+			xmin = 0.48 
+			xmax = 0.53 
+			text = "t" 
+		invertals [7]:
+			xmin = 0.54 
+			xmax = 0.57 
+			text = "hh" 
+		invertals [8]:
+			xmin = 0.58 
+			xmax = 0.78 
+			text = "eh" 
+		invertals [9]:
+			xmin = 0.79 
+			xmax = 0.85 
+			text = "sil" 

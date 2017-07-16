@@ -1,0 +1,38 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.39
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "KAMPF.wav"
+		xmin = 0 
+		xmax = 0.39 
+		intervals: size = 6
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.07 
+			text = "sil" 
+		invertals [2]:
+			xmin = 0.08 
+			xmax = 0.10 
+			text = "k" 
+		invertals [3]:
+			xmin = 0.11 
+			xmax = 0.22 
+			text = "ae" 
+		invertals [4]:
+			xmin = 0.23 
+			xmax = 0.30 
+			text = "m" 
+		invertals [5]:
+			xmin = 0.31 
+			xmax = 0.34 
+			text = "p" 
+		invertals [6]:
+			xmin = 0.35 
+			xmax = 0.39 
+			text = "f" 

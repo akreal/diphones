@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.76
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "THERMODYNAMICS.wav"
+		xmin = 0 
+		xmax = 0.76 
+		intervals: size = 14
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "sil" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.11 
+			text = "th" 
+		invertals [3]:
+			xmin = 0.12 
+			xmax = 0.14 
+			text = "m" 
+		invertals [4]:
+			xmin = 0.15 
+			xmax = 0.17 
+			text = "ao" 
+		invertals [5]:
+			xmin = 0.18 
+			xmax = 0.22 
+			text = "uh" 
+		invertals [6]:
+			xmin = 0.23 
+			xmax = 0.25 
+			text = "d" 
+		invertals [7]:
+			xmin = 0.26 
+			xmax = 0.30 
+			text = "aa" 
+		invertals [8]:
+			xmin = 0.31 
+			xmax = 0.33 
+			text = "iy" 
+		invertals [9]:
+			xmin = 0.34 
+			xmax = 0.36 
+			text = "n" 
+		invertals [10]:
+			xmin = 0.37 
+			xmax = 0.50 
+			text = "ae" 
+		invertals [11]:
+			xmin = 0.51 
+			xmax = 0.57 
+			text = "m" 
+		invertals [12]:
+			xmin = 0.58 
+			xmax = 0.64 
+			text = "ih" 
+		invertals [13]:
+			xmin = 0.65 
+			xmax = 0.67 
+			text = "k" 
+		invertals [14]:
+			xmin = 0.68 
+			xmax = 0.76 
+			text = "s" 

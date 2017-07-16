@@ -1,0 +1,46 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.75
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "RAPA_NUI.wav"
+		xmin = 0 
+		xmax = 0.75 
+		intervals: size = 8
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.08 
+			text = "r" 
+		invertals [2]:
+			xmin = 0.09 
+			xmax = 0.16 
+			text = "aa" 
+		invertals [3]:
+			xmin = 0.17 
+			xmax = 0.23 
+			text = "p" 
+		invertals [4]:
+			xmin = 0.24 
+			xmax = 0.28 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.29 
+			xmax = 0.36 
+			text = "n" 
+		invertals [6]:
+			xmin = 0.37 
+			xmax = 0.50 
+			text = "uw" 
+		invertals [7]:
+			xmin = 0.51 
+			xmax = 0.65 
+			text = "ih" 
+		invertals [8]:
+			xmin = 0.66 
+			xmax = 0.75 
+			text = "sil" 

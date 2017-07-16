@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.59
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "LUXURY.wav"
+		xmin = 0 
+		xmax = 0.59 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.11 
+			text = "l" 
+		invertals [2]:
+			xmin = 0.12 
+			xmax = 0.22 
+			text = "ah" 
+		invertals [3]:
+			xmin = 0.23 
+			xmax = 0.28 
+			text = "g" 
+		invertals [4]:
+			xmin = 0.29 
+			xmax = 0.38 
+			text = "zh" 
+		invertals [5]:
+			xmin = 0.39 
+			xmax = 0.41 
+			text = "uh" 
+		invertals [6]:
+			xmin = 0.42 
+			xmax = 0.45 
+			text = "r" 
+		invertals [7]:
+			xmin = 0.46 
+			xmax = 0.59 
+			text = "iy" 

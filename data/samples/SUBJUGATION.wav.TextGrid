@@ -1,0 +1,58 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.86
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "SUBJUGATION.wav"
+		xmin = 0 
+		xmax = 0.86 
+		intervals: size = 11
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.12 
+			text = "s" 
+		invertals [2]:
+			xmin = 0.13 
+			xmax = 0.21 
+			text = "ah" 
+		invertals [3]:
+			xmin = 0.22 
+			xmax = 0.27 
+			text = "b" 
+		invertals [4]:
+			xmin = 0.28 
+			xmax = 0.37 
+			text = "jh" 
+		invertals [5]:
+			xmin = 0.38 
+			xmax = 0.40 
+			text = "ah" 
+		invertals [6]:
+			xmin = 0.41 
+			xmax = 0.50 
+			text = "g" 
+		invertals [7]:
+			xmin = 0.51 
+			xmax = 0.53 
+			text = "eh" 
+		invertals [8]:
+			xmin = 0.54 
+			xmax = 0.62 
+			text = "iy" 
+		invertals [9]:
+			xmin = 0.63 
+			xmax = 0.77 
+			text = "sh" 
+		invertals [10]:
+			xmin = 0.78 
+			xmax = 0.83 
+			text = "ah" 
+		invertals [11]:
+			xmin = 0.84 
+			xmax = 0.86 
+			text = "n" 

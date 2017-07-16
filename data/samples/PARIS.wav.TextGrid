@@ -1,0 +1,34 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.59
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "PARIS.wav"
+		xmin = 0 
+		xmax = 0.59 
+		intervals: size = 5
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.16 
+			text = "p" 
+		invertals [2]:
+			xmin = 0.17 
+			xmax = 0.21 
+			text = "eh" 
+		invertals [3]:
+			xmin = 0.22 
+			xmax = 0.33 
+			text = "r" 
+		invertals [4]:
+			xmin = 0.34 
+			xmax = 0.43 
+			text = "ih" 
+		invertals [5]:
+			xmin = 0.44 
+			xmax = 0.59 
+			text = "s" 

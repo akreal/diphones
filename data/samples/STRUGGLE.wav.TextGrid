@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.28
+tiers? <exists>
+size = 1
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "STRUGGLE.wav"
+		xmin = 0 
+		xmax = 0.28 
+		intervals: size = 7
+		invertals [1]:
+			xmin = 0.00 
+			xmax = 0.02 
+			text = "s" 
+		invertals [2]:
+			xmin = 0.03 
+			xmax = 0.05 
+			text = "t" 
+		invertals [3]:
+			xmin = 0.06 
+			xmax = 0.10 
+			text = "r" 
+		invertals [4]:
+			xmin = 0.11 
+			xmax = 0.16 
+			text = "ah" 
+		invertals [5]:
+			xmin = 0.17 
+			xmax = 0.22 
+			text = "g" 
+		invertals [6]:
+			xmin = 0.23 
+			xmax = 0.25 
+			text = "ah" 
+		invertals [7]:
+			xmin = 0.26 
+			xmax = 0.28 
+			text = "l" 
