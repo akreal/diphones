@@ -3,7 +3,7 @@ import sys
 
 log_filename = sys.argv[1]
 
-phone = re.compile('^(\w+)\s+(\d+)\s+(\d+)\s+\d+\.\d+\s+-?\d+\s+-?\d+\s+\d+\s+$')
+phone = re.compile('^(\w+)\s+(\d+)\s+(\d+)\s+-?\d+(\.\d+\s+-?\d+\s+-?\d+\s+\d+\s+)?$')
 intervals = list()
 xmax = 0.0
 index2interval = list()
