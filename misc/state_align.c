@@ -1,3 +1,4 @@
+// compile with: gcc -I /usr/local/include/pocketsphinx -I /usr/local/include/sphinxbase -I ~/src/ps/pocketsphinx/src/libpocketsphinx  -l pocketsphinx -l sphinxbase -o state_align state_align.c
 #include <pocketsphinx.h>
 
 #include "ps_alignment.h"
@@ -56,16 +57,13 @@ main(int argc, char *argv[])
     acmod = ps->acmod;
 
     al = ps_alignment_init(d2p);
-    ps_alignment_add_word(al, dict_wordid(dict, "<s>"), 0);
     ps_alignment_add_word(al, dict_wordid(dict, "long"), 0);
     ps_alignment_add_word(al, dict_wordid(dict, "enough"), 0);
-    ps_alignment_add_word(al, dict_wordid(dict, "</s>"), 0);
     ps_alignment_populate(al);
 
     search = state_align_search_init("state_align", config, acmod, al);
 
-    for (i = 0; i < 5; i++)
-        do_search(search, acmod);
+    do_search(search, acmod);
 
     itor = ps_alignment_phones(al);
 
