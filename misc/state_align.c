@@ -6,7 +6,7 @@
 #include "pocketsphinx_internal.h"
 
 static int
-do_search(ps_search_t *search, acmod_t *acmod)
+do_search(ps_search_t *search, acmod_t *acmod, const char *fname)
 {
     FILE *rawfh;
     int16 buf[2048];
@@ -14,7 +14,7 @@ do_search(ps_search_t *search, acmod_t *acmod)
     int16 const *bptr;
     int nfr;
 
-    rawfh = fopen("LONG_ENOUGH.wav", "rb");
+    rawfh = fopen(fname, "rb");
     acmod_start_utt(acmod);
     ps_search_start(search);
     while (!feof(rawfh)) {
@@ -27,7 +27,7 @@ do_search(ps_search_t *search, acmod_t *acmod)
             }
         }
     }
-	acmod_end_utt(acmod);
+    acmod_end_utt(acmod);
     fclose(rawfh);
     return ps_search_finish(search);
 }
@@ -44,8 +44,8 @@ main(int argc, char *argv[])
     ps_alignment_iter_t *itor;
     ps_search_t *search;
     cmd_ln_t *config;
-    int i;
-	char phone_str[4];
+    int i, wi;
+    char phone_str[4], word[128];
 
     config = cmd_ln_init(NULL, ps_args(), FALSE,
                  "-hmm", "../../model/en-us/en-us",
@@ -57,26 +57,41 @@ main(int argc, char *argv[])
     acmod = ps->acmod;
 
     al = ps_alignment_init(d2p);
-    ps_alignment_add_word(al, dict_wordid(dict, "long"), 0);
-    ps_alignment_add_word(al, dict_wordid(dict, "enough"), 0);
+
+    wi = 0;
+    for (i = 0; argv[2][i] != '\0'; i++) {
+        if (argv[2][i] == ' ') {
+            word[wi] = '\0';
+            ps_alignment_add_word(al, dict_wordid(dict, word), 0);
+            wi = 0;
+        }
+        else {
+            word[wi] = argv[2][i];
+            wi++;
+        }
+    }
+
+    word[wi] = '\0';
+    ps_alignment_add_word(al, dict_wordid(dict, word), 0);
+
     ps_alignment_populate(al);
 
     search = state_align_search_init("state_align", config, acmod, al);
 
-    do_search(search, acmod);
+    do_search(search, acmod, argv[1]);
 
     itor = ps_alignment_phones(al);
 
-	while (itor != NULL) {
-		bin_mdef_phone_str(acmod->mdef, ps_alignment_iter_get(itor)->id.pid.cipid, phone_str);
+    while (itor != NULL) {
+        bin_mdef_phone_str(acmod->mdef, ps_alignment_iter_get(itor)->id.pid.cipid, phone_str);
 
-		printf("%s\t%d\t%d\t%d\n", phone_str,
-			ps_alignment_iter_get(itor)->start,
-			ps_alignment_iter_get(itor)->start + ps_alignment_iter_get(itor)->duration,
-			ps_alignment_iter_get(itor)->score);
+        printf("%s\t%d\t%d\t%d\n", phone_str,
+            ps_alignment_iter_get(itor)->start,
+            ps_alignment_iter_get(itor)->start + ps_alignment_iter_get(itor)->duration,
+            ps_alignment_iter_get(itor)->score);
 
-		itor = ps_alignment_iter_next(itor);
-	}
+        itor = ps_alignment_iter_next(itor);
+    }
 
     ps_search_free(search);
     ps_alignment_free(al);
