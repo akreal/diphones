@@ -1,0 +1,35 @@
+AA	spread	rest	oral	voiced
+AE	spread	rest	oral	voiced
+AH	spread	rest	oral	voiced
+AO	rounded	rest	oral	voiced
+B	bilabial stop	rest	oral	voiced
+CH	spread	alveolar stop	oral	voiceless
+D	spread	alveolar stop	oral	voiced
+DH	spread	dental fricative	oral	voiced
+EH	spread	palatal fricative	oral	voiced
+ER	spread	palatal fricative	oral	voiced
+F	labiodental contact	rest	oral	voiceless
+G	spread	velar stop	oral	voiced
+HH	spread	rest	oral	voiceless
+IH	spread	palatal fricative	oral	voiced
+IY	spread	palatal fricative	oral	voiced
+JH	spread	alveolar stop	oral	voiced
+K	spread	velar stop	oral	voiceless
+L	spread	alveolar stop	oral	voiced
+M	bilabial stop	rest	nasal	voiced
+N	spread	alveolar stop	nasal	voiced
+NG	spread	velar stop	nasal	voiced
+P	bilabial stop	rest	oral	voiceless
+R	spread	alveolar stop	oral	voiced
+S	spread	alveolar fricative	oral	voiceless
+SH	spread	postalveolar fricative	oral	voiceless
+SIL	-	-	-	-
+T	spread	alveolar stop	oral	voiceless
+TH	spread	dental fricative	oral	voiceless
+UH	rounded	rest	oral	voiced
+UW	rounded	rest	oral	voiced
+V	labiodental contact	rest	oral	voiced
+W	labiodental contact	rest	oral	voiced
+Y	spread	palatal fricative	oral	voiced
+Z	spread	alveolar fricative	oral	voiced
+ZH	spread	postalveolar fricative	oral	voiced
