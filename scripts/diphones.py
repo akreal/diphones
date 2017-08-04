@@ -9,13 +9,16 @@ for dictionary_filename in ['data/librispeech-lexicon.txt', 'data/TEDLIUM.152k.d
                 if '\t' in string:
                     [word, transcription] = string.strip().split('\t')
                 else:
-                    parts = string.strip().split(' ')
+                    parts = [x for x in string.strip().split(' ') if x != '']
+
+                    if len(parts) == 2:
+                        parts.append(parts[1])
+
                     [word, transcription] = [parts[0], ' '.join(parts[1:])]
 
                 word = word.upper()
 
                 if word in vocabulary:
-                    print('Duplicate lexicon entry: ' + word)
                     next
 
                 transcription = transcription \
