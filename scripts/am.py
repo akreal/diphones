@@ -45,7 +45,7 @@ for dataset in ['train', 'test']:
 
     with open(db_path + '/etc/' + db + '_' + dataset + '.transcription', 'w') as transcriptions_file, \
             open(db_path + '/etc/' + db + '_' + dataset + '.fileids', 'w') as fileids_file, \
-            open(db_path + '/etc/' + db + '-text.txt', 'w') as text_file:
+            open(db_path + '/etc/' + dataset + '-text.txt', 'w') as text_file:
         for transcription_filename in glob.glob('/data/LibriSpeech/' + dataset  + '-clean*/*/*/*.txt'):
             with open(transcription_filename) as transcription_file:
                 for string in transcription_file:
