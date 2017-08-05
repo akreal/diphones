@@ -10,7 +10,6 @@ os.makedirs(db_path + '/etc', exist_ok=True)
 print('Reading unigrams')
 
 vocabulary = dict()
-phones = set()
 
 with open('data/unigrams_diphones.txt') as unigrams_file:
     for unigram in unigrams_file:
@@ -22,23 +21,11 @@ with open('data/unigrams_diphones.txt') as unigrams_file:
         word = parts[1].lower()
         transcription = parts[2].strip()
         vocabulary[word] = transcription
-        phones |= set(transcription.split(' '))
-
-print('Creating phoneset')
-
-with open(db_path + '/etc/' + db + '.phone', 'w') as phoneset_file:
-    for phone in sorted(phones):
-        phoneset_file.write(phone + '\n')
-
-print('Creating dictionary')
-
-words = set(vocabulary.keys())
-
-with open(db_path + '/etc/' + db + '.dic', 'w') as dict_file:
-    for word in sorted(words):
-        dict_file.write(word + ' ' + vocabulary[word] + '\n')
 
 os.makedirs(db_path + '/wav', exist_ok=True)
+
+words = set()
+phones = set()
 
 for dataset in ['train', 'test']:
     print('Creating ' + dataset + ' dataset')
@@ -52,16 +39,47 @@ for dataset in ['train', 'test']:
                     parts = string.strip().split(' ')
                     utterance = parts[0]
                     transcription = [x.lower() for x in parts[1:]]
-                    transcription_words = set(transcription)
-            
-                    if transcription_words & words == transcription_words:
-                        text = ' '.join(transcription)
-                        text_file.write(text + '\n')
-                        transcriptions_file.write('<s> ' + text + ' </s> (' + utterance + ')\n')
-                        fileids_file.write(utterance + '\n')
 
-                        convert_command = ['sox',
-                            transcription_filename[:transcription_filename.rindex('/') + 1] + utterance + '.flac',
-                            '-c', '1', '-r', '16000', '-b', '16', db_path + '/wav/' + utterance + '.wav']
-                        subprocess.run(convert_command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                    allwords = True
+                    transcription_phones = set()
 
+                    for word in transcription:
+                        if word in vocabulary:
+                            transcription_phones |= set(vocabulary[word].split(' '))
+                        else:
+                            allwords = False
+                            break
+
+                    if allwords:
+                        transcription_words = set(transcription)
+
+                        if dataset == 'train':
+                            words |= transcription_words
+                            phones |= transcription_phones
+
+                        if transcription_words & words == transcription_words and \
+                            transcription_phones & phones == transcription_phones:
+
+                            text = ' '.join(transcription)
+                            text_file.write(text + '\n')
+                            transcriptions_file.write('<s> ' + text + ' </s> (' + utterance + ')\n')
+                            fileids_file.write(utterance + '\n')
+
+                            convert_command = ['sox',
+                                transcription_filename[:transcription_filename.rindex('/') + 1] + utterance + '.flac',
+                                '-c', '1', '-r', '16000', '-b', '16', db_path + '/wav/' + utterance + '.wav']
+                            subprocess.run(convert_command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+print('Creating dictionary')
+
+with open(db_path + '/etc/' + db + '.dic', 'w') as dict_file:
+    for word in sorted(words):
+        dict_file.write(word + ' ' + vocabulary[word] + '\n')
+
+print('Creating phoneset')
+
+phones.add('SIL')
+
+with open(db_path + '/etc/' + db + '.phone', 'w') as phoneset_file:
+    for phone in sorted(phones):
+        phoneset_file.write(phone + '\n')
