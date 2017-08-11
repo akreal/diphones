@@ -22,6 +22,22 @@ with open('data/unigrams_diphones.txt') as unigrams_file:
         transcription = parts[2].strip()
         vocabulary[word] = transcription
 
+print('Reading list of bad utterances')
+
+bad_utterances = set()
+
+with open('data/librispeech-bad-utterances.txt') as bad_utterances_file:
+    for utt in bad_utterances_file:
+        bad_utterances.add(utt.strip())
+
+print('Reading list of bad (rare) diphones')
+
+bad_diphones = set()
+
+with open('data/librispeech-bad-diphones.txt') as bad_diphones_file:
+    for diphone in bad_diphones_file:
+        bad_diphones.add(diphone.strip())
+
 os.makedirs(db_path + '/wav', exist_ok=True)
 
 words = set()
@@ -40,17 +56,23 @@ for dataset in ['train', 'test']:
                     utterance = parts[0]
                     transcription = [x.lower() for x in parts[1:]]
 
-                    allwords = True
+                    skip = False
                     transcription_phones = set()
+
+                    if utterance in bad_utterances:
+                        skip = True
 
                     for word in transcription:
                         if word in vocabulary:
                             transcription_phones |= set(vocabulary[word].split(' '))
                         else:
-                            allwords = False
+                            skip = True
                             break
 
-                    if allwords:
+                    if len(transcription_phones & bad_diphones) > 0:
+                        skip = True
+
+                    if not skip:
                         transcription_words = set(transcription)
 
                         if dataset == 'train':
