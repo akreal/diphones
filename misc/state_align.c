@@ -48,8 +48,8 @@ main(int argc, char *argv[])
     char phone_str[4], word[128];
 
     config = cmd_ln_init(NULL, ps_args(), FALSE,
-                 "-hmm", "/usr/local/share/pocketsphinx/model/en-us/en-us",
-                 "-dict", "data/merged.dict",
+                 "-hmm", "data/model/",
+                 "-dict", "data/librespeech-diphones.dict",
                  "-samprate", "16000", NULL);
     ps = ps_init(config);
     dict = ps->dict;
