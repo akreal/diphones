@@ -1,4 +1,4 @@
-// compile with: gcc -I /usr/local/include/pocketsphinx -I /usr/local/include/sphinxbase -I ~/src/ps/pocketsphinx/src/libpocketsphinx  -l pocketsphinx -l sphinxbase -o state_align state_align.c
+// compile with: gcc -I /usr/local/include/pocketsphinx -I /usr/local/include/sphinxbase -I ~/src/ps/pocketsphinx/src/libpocketsphinx  -l pocketsphinx -l sphinxbase -o state_align -DMODELDIR="/usr/local/share/pocketsphinx/model" state_align.c
 #include <pocketsphinx.h>
 
 #include "ps_alignment.h"
@@ -47,10 +47,8 @@ main(int argc, char *argv[])
     int i, wi;
     char phone_str[4], word[128];
 
-    config = cmd_ln_init(NULL, ps_args(), FALSE,
-                 "-hmm", "data/model/",
-                 "-dict", "data/librespeech-diphones.dict",
-                 "-samprate", "16000", NULL);
+    config = cmd_ln_init(NULL, ps_args(), FALSE, NULL);
+    ps_default_search_args(config);
     ps = ps_init(config);
     dict = ps->dict;
     d2p = ps->d2p;
