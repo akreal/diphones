@@ -47,8 +47,10 @@ main(int argc, char *argv[])
     int i, wi;
     char phone_str[4], word[128];
 
-    config = cmd_ln_init(NULL, ps_args(), FALSE, "-diphones", "yes", NULL);
-    ps_default_search_args(config);
+    config = cmd_ln_init(NULL, ps_args(), FALSE,
+                 "-hmm", "/usr/local/share/pocketsphinx/model/en-us/en-us",
+                 "-dict", "data/merged.dict",
+                 "-samprate", "16000", NULL);
     ps = ps_init(config);
     dict = ps->dict;
     d2p = ps->d2p;
