@@ -30,14 +30,6 @@ with open('data/librispeech-bad-utterances.txt') as bad_utterances_file:
     for utt in bad_utterances_file:
         bad_utterances.add(utt.strip())
 
-print('Reading list of bad (rare) diphones')
-
-bad_diphones = set()
-
-with open('data/librispeech-bad-diphones.txt') as bad_diphones_file:
-    for diphone in bad_diphones_file:
-        bad_diphones.add(diphone.strip())
-
 os.makedirs(db_path + '/wav', exist_ok=True)
 
 words = set()
@@ -68,9 +60,6 @@ for dataset in ['train', 'test']:
                         else:
                             skip = True
                             break
-
-                    if len(transcription_phones & bad_diphones) > 0:
-                        skip = True
 
                     if not skip:
                         transcription_words = set(transcription)
