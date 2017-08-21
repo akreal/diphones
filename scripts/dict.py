@@ -7,6 +7,8 @@ with open('data/diphones-am/etc/diphones-am.phone') as diphones_file:
     for string in diphones_file:
         diphones.add(string.strip())
 
+diphones.add('SIL')
+
 words = set()
 altword = re.compile('^(.+)\(\d+\)$')
 
@@ -33,7 +35,7 @@ with open(dictionary_filename) as dictionary_file, \
                 .replace('OY', 'AO IY')
 
             transcription = [x.rstrip('0123456789') for x in transcription.split(' ')]
-            transcription = ['_'.join(x) for x in zip(transcription, transcription[1:])]
+            transcription = ['SIL' if 'SIL' in x else '_'.join(x) for x in zip(transcription, transcription[1:])]
             transcription_set = set(transcription)
 
             string = ''
