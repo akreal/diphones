@@ -56,8 +56,8 @@ scripts.
 
 ### words.txt
 
-List of sample words for the diphones. "Words" can be both unigrams and bigrams,
-in case of diphones containing *salience* phone. Produced by `words.py` script,
+List of sample words for the diphones. "Words" can be unigrams or bigrams
+(in case of diphones containing *salience* phone). Produced by `words.py` script,
 used by `utts.py` and `diphone_audio.py` scripts.
 
 ### aligned.txt
