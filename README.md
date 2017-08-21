@@ -1,4 +1,4 @@
-# PocketSphinx diphones alignment
+# PocketSphinx diphone alignment
 
 ## Introduction
 
@@ -9,8 +9,6 @@ Also please see
 the pull requests to the upstream
 [PocketSphinx](https://github.com/cmusphinx/pocketsphinx/pull/90) and
 [CMUSphinx Website](https://github.com/cmusphinx/cmusphinx.github.io/pull/30) repositories.
-
-## Scripts
 
 ## Data
 
@@ -87,7 +85,7 @@ Produced by `spectrogram.py` script.
 
 ### img/pitches
 
-Pitch images of the diphone audio samples.
+Pitch contour images of the diphone audio samples.
 Produced by `pitches.praat` script.
 
 ### articulations
@@ -124,5 +122,87 @@ Produced by `am.py` script, used by `sphinxtrain`.
 
 Diphones AM. Produced by `sphinxtrain`.
 
+## Scripts
+
+### align.sh
+
+Runs `pocketsphinx_continuous` program with certain parameters.
+
+### dict.py
+
+Coverts a dictionary from phone to diphone representation for usage
+with a diphone AM.
+
+### diphones.py
+
+Adds diphone-level phonetic transcriptions to a list of ngrams.
+
+### merge_dictionaries.py
+
+Merges two dictionaries into single one.
+
+### praat.py
+
+Prepares list of utterances and TextGrid label files for `samples.praat` script.
+
+### utts.py
+
+Creates list of utterances which both contain sample words for diphones and were
+successfully processed by forced phonetic aligner.
+
+### am.py
+
+Generates database structure for the diphones AM training.
+
+### difficulties.py
+
+Calculates the degree of difficulty for human pronunciation for given diphones
+based on the distance between SVG paths representing articulation configuration
+of two phones composing each of diphones.
+
+### import_tedlium.py
+
+Imports text transcriptions from TED-LIUM corpus structure to this repository.
+
+### ngrams.py
+
+Extracts all ngrams from text transcriptions of the corpora and saves them sorted by frequency.
+
+### samples.praat
+
+Iterates over sample words and utterances, asks user to select an audio interval
+with sample word and saves it to the directory with words audio samples.
+
+### words.py
+
+Selects sample words for diphones using rules described
+[here](https://sourceforge.net/p/cmusphinx/mailman/message/35804570/).
+
+### audio.py
+
+Selects utterances containing sample words and converts their audio
+to the format suitable for PocketSphinx processing.
+
+### diphone_audio.py
+
+Extracts diphone audio samples from word audio samples.
+
+### log2textgrid.py
+
+Converts timestamped labels from output of PocketSphinx to Praat TextGrid label file.
+
+### pitches.praat
+
+Produces pitch contour images for diphone audio samples.
+
+### spectrogram.py
+
+Produces spectrogram images for diphone audio samples.
+
 ## Miscellaneous
+
+### state_align.c
+
+Produces a phonetic alignment of given words for given audio file using state search mode of PocketSphinx.
+Used in `diphone_audio.py` script for the extraction of diphone's timestamp and duration.
 
