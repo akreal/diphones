@@ -110,17 +110,17 @@ Produced by `difficulties.py` script.
 ### librispeech-bad-utterances.txt
 
 List of utterances which caused
-problems in the diphones AM training. Produced by running `grep` on the logs
+problems in the diphones acoustic model training. Produced by running `grep` on the logs
 of training process, used by `am.py` script.
 
 ### diphones-am
 
-Database structure for the diphones AM training.
+Database structure for the diphones acoustic model training.
 Produced by `am.py` script, used by `sphinxtrain`.
 
 ### model
 
-Diphones AM. Produced by `sphinxtrain`.
+Diphones acoustic model. Produced by `sphinxtrain`.
 
 ## Scripts
 
@@ -131,7 +131,7 @@ Runs `pocketsphinx_continuous` program with certain parameters.
 ### dict.py
 
 Coverts a dictionary from phone to diphone representation for usage
-with a diphone AM.
+with a diphone acoustic model.
 
 ### diphones.py
 
@@ -152,7 +152,7 @@ successfully processed by forced phonetic aligner.
 
 ### am.py
 
-Generates database structure for the diphones AM training.
+Generates database structure for the diphones acoustic model training.
 
 ### difficulties.py
 
