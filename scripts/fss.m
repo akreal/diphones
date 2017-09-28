@@ -20,7 +20,7 @@ for i = 1:size(fd)(2)
 endfor
 
 % The forth root is suggested in: Cheung, S., & Lim, J. S. (1992). Combined multiresolution (wide-band/narrow-band) spectrogram. IEEE Transactions on signal processing, 40(4), 975-977.
-% The energy was squared before the port picking, so I do the eighth root
+% The magnitude was squared before for the port picking, so I do the eighth root
 s = s .^ 0.125;
 
 hf = figure();
