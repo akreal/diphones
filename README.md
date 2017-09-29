@@ -1,14 +1,14 @@
-# PocketSphinx diphone alignment
+# English diphones collection
 
-## Introduction
+## Description
 
-This repository contains the work I have done for
+This repository contains a collection of audio samples for English diphones
+with some supplementary materials and tools.
+It was started as a part of the work I did for
 [Diphone alignment and acoustic scores](https://summerofcode.withgoogle.com/projects/#5723520257490944)
-project as a part of Google Summer of Code 2017 program.
-Also please see
-the pull requests to the upstream
-[PocketSphinx](https://github.com/cmusphinx/pocketsphinx/pull/90) and
-[CMUSphinx Website](https://github.com/cmusphinx/cmusphinx.github.io/pull/30) repositories.
+project of Google Summer of Code 2017 program.
+For the original GSoC submission, please see
+[master](https://github.com/akreal/diphones/tree/master) branch.
 
 ## Data
 
