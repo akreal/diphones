@@ -16,7 +16,7 @@ with open('data/diphone2utt.txt') as diphone2utt:
         [diphone, utt] = string.strip().split('\t')
         utts[diphone] = utt
 
-print('Diphone\tSpectrogram\tWord\tWord count\tPosition from the word\'s start\tPosition from the word\'s end\tSample duration\tUtterance\tSpeaker\'s gender')
+print('Diphone\tSpectrogram\tWord\tWord count\tPosition from the word\'s start\tPosition from the word\'s end\tSample duration\tUtterance\tSpeaker\'s gender\tSpeech type')
 
 dre = re.compile('Duration: \d\d:\d\d:(\d\d\.\d\d)')
 diphones = dict()
@@ -56,5 +56,10 @@ with open('data/words.txt') as words:
 
         utt = utts[filename + '.wav']
 
-        print('%s\t%s.png\t%s\t%d\t%d\t%d\t%s\t%s\t%s' %
-            (diphone, filename, word, int(count), lposition, rposition, duration, utt, genders[utt]))
+        st = 'spontaneous'
+
+        if utt[0].isdigit():
+            st = 'read'
+
+        print('%s\t%s.png\t%s\t%d\t%d\t%d\t%s\t%s\t%s\t%s' %
+            (diphone, filename, word, int(count), lposition, rposition, duration, utt, genders[utt], st))
